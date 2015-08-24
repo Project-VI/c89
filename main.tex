@@ -1,4 +1,4 @@
-\documentclass[9pt,b5paper,tombo,openany]{jsbook}
+\documentclass[8pt,b5paper,tombo,openany]{jsbook}
 
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{listings}
@@ -7,16 +7,22 @@
 \usepackage{url}
 \usepackage{minitoc}
 \usepackage{wrapfig}
-
-\renewcommand{\kanjifamilydefault}{\gtdefault}
-\renewcommand{\familydefault}{\sfdefault}
-
-\setlength{\textwidth}{\fullwidth}
-\setlength{\evensidemargin}{\oddsidemargin}
+%\usepackage{tocloft}
+%\usepackage{titletoc}
 
 \lstset{basicstyle={\small\ttfamily}}
 \lstset{frame=single}
 \lstset{breaklines=true}
+
+%\cftsetindents{chapter}{0.1in}{0.5in}
+%\cftsetindents{section}{-0.25in}{0.5in}
+%\cftsetindents{subsection}{-0.2in}{0.5in}
+
+\setlength{\textwidth}{\fullwidth}
+\setlength{\evensidemargin}{\oddsidemargin}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\renewcommand{\familydefault}{\sfdefault}
 
 \begin{document}
 
@@ -142,10 +148,11 @@ keystone先生が飼ってるワインレッドの猫。
 \end{center}
 \vspace*{\stretch{1}}
 
+\newpage
+
 \thispagestyle{empty}
 \dominitoc
 \tableofcontents
-\thispagestyle{empty}
 
 \chapter{はじめに}
 
