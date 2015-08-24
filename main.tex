@@ -5,6 +5,8 @@
 \usepackage{inconsolata}
 \usepackage{floatflt}
 \usepackage{url}
+\usepackage{minitoc}
+\usepackage{wrapfig}
 
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \renewcommand{\familydefault}{\sfdefault}
@@ -141,6 +143,7 @@ keystone先生が飼ってるワインレッドの猫。
 \vspace*{\stretch{1}}
 
 \thispagestyle{empty}
+\dominitoc
 \tableofcontents
 \thispagestyle{empty}
 
@@ -163,6 +166,10 @@ OpenStackという単語を聞いたことがある人が、この本を手に�
 これはかつてクラウドと呼ばれたインフラに関する事柄、あるいはたった一つの冴えたやりかたの存在を考えるシリーズの、第一巻となる予定です。TerraformやKVMと、書かれるべきものはたくさんありますが、執筆者のみでは不可能であり、まず、他のメンバーにお伺いをたてなければなりません。
 
 \chapter{OpenStackことはじめ}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\minitoc
+\end{wrapfigure}
 
 \section{OpenStack以前 ~クラウドのベンダーロックイン問題}
 
@@ -242,7 +249,11 @@ NeutronはOpenStackに対してネットワークに紐付いたサービスを�
 
 Keystoneはユーザ認証とロールベースのアクセスコントロールをOpenStackに提供するためのコンポーネントです。KeystoneはLDAPと連携することでユーザコントロールやポリシーの設定が可能になります。また、伝統的なID/Passwordによるログインに加えてトークンベースのログインも可能です。
 
-\section{OpenStackを動かしてみる}
+\chapter{OpenStackを動かしてみる}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\minitoc
+\end{wrapfigure}
 
 というわけで、OpenStackをセットアップしてみましょう。念入りに準備をして、その準備から外れたことはしない人いますけど、それが責任感とでも思っているんですかね。何でもやってみなくちゃ始まりません。なんとdebでもrpmでもパッケージが提供されています。ディストリビューションのリポジトリを探してみましょう。そのパッケージをインストールすればよいのです。できましたか？設定ファイルなどを書き直す必要はありますが……まぁパッケージだしデフォルトでそれなりに動くようになってはいるでしょう。じゃあ起動してみましょう。
 
@@ -786,8 +797,6 @@ https://github.com/Project-VI/OpenStack/blob/master/5-1-userdata\_py.txt
 \end{scriptsize}
 \end{minipage}
 \end{flushleft}
-
-\newpage
 
 \vspace*{\stretch{1}}
 \begin{flushright}

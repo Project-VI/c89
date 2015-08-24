@@ -92,8 +92,7 @@ acs-*.bib
 
 # minitoc
 *.maf
-*.mtc
-*.mtc0
+*.mtc*
 
 # minted
 _minted*
