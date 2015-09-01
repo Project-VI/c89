@@ -8,7 +8,6 @@
 \usepackage{minitoc}
 \usepackage{wrapfig}
 %\usepackage{tocloft}
-%\usepackage{titletoc}
 
 \lstset{basicstyle={\small\ttfamily}}
 \lstset{frame=single}
@@ -23,6 +22,58 @@
 
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \renewcommand{\familydefault}{\sfdefault}
+
+%%%%%
+\usepackage{tikz}
+%\usetikzlibrary{shadows.blur}
+
+\usepackage{titletoc}
+
+\usepackage{calc}
+
+\usepackage[]{titlesec}
+\definecolor{yourcolor}{HTML}{008bb2}
+
+\colorlet{chpnumbercolor}{black}
+\makeatletter
+\let\oldl@chapter\l@chapter
+\def\l@chapter#1#2{\oldl@chapter{#1}{\textcolor{chpnumbercolor}{#2}}}
+
+\let\old@dottedcontentsline\@dottedtocline
+\def\@dottedtocline#1#2#3#4#5{%
+\old@dottedcontentsline{#1}{#2}{#3}{#4}{{\textcolor{chpnumbercolor}{#5}}}}
+\makeatother
+
+\titleformat{\chapter}[display]
+  {\normalfont\color{yourcolor}}
+  {\filleft\Huge\sffamily\bfseries\chaptertitlename\hspace*{2mm}%
+  \begin{tikzpicture}[baseline={([yshift=-.6ex]current bounding box.center)}]
+    \node[fill=yourcolor,circle,text=white] {\thechapter};
+  \end{tikzpicture}}
+  {1ex}
+  {\titlerule[1.5pt]\vspace*{5ex}\huge\sffamily\itshape}
+  []
+
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\color{yourcolor}}
+  {}
+  {1ex}
+  {\vspace*{5ex}\huge\sffamily\itshape}
+  []
+
+%command to print the acutal minitoc
+\newcommand{\printmyminitoc}{%
+    \noindent\hspace{-2cm}%
+    \colorlet{chpnumbercolor}{white}%
+    \begin{tikzpicture}
+    %\node[rounded corners,align=left,fill=yourcolor, blur shadow={shadow blur steps=5}, inner sep=5mm]{%
+    \node[rounded corners,align=left,fill=yourcolor, inner sep=5mm]{%
+        \color{white}%
+        \begin{minipage}{10cm}%minipage trick
+        \printcontents[chapters]{}{1}{}
+        \end{minipage}};
+    \end{tikzpicture}}
+%%%%%
 
 \begin{document}
 
@@ -151,7 +202,7 @@ keystone先生が飼ってるワインレッドの猫。
 \newpage
 
 \thispagestyle{empty}
-\dominitoc
+%\dominitoc
 \tableofcontents
 
 \chapter{はじめに}
@@ -174,9 +225,8 @@ OpenStackという単語を聞いたことがある人が、この本を手に�
 
 \chapter{OpenStackことはじめ}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-\minitoc
-\end{wrapfigure}
+\startcontents[chapters]
+\printmyminitoc
 
 \section{OpenStack以前 ~クラウドのベンダーロックイン問題}
 
@@ -258,9 +308,7 @@ Keystoneはユーザ認証とロールベースのアクセスコントロール
 
 \chapter{OpenStackを動かしてみる}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-\minitoc
-\end{wrapfigure}
+\printmyminitoc
 
 というわけで、OpenStackをセットアップしてみましょう。念入りに準備をして、その準備から外れたことはしない人いますけど、それが責任感とでも思っているんですかね。何でもやってみなくちゃ始まりません。なんとdebでもrpmでもパッケージが提供されています。ディストリビューションのリポジトリを探してみましょう。そのパッケージをインストールすればよいのです。できましたか？設定ファイルなどを書き直す必要はありますが……まぁパッケージだしデフォルトでそれなりに動くようになってはいるでしょう。じゃあ起動してみましょう。
 
