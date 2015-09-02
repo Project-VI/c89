@@ -7,15 +7,17 @@
 \usepackage{url}
 \usepackage{minitoc}
 \usepackage{wrapfig}
-%\usepackage{tocloft}
+\usepackage{tocloft}
+%%%%% minitoc
+\usepackage{tikz}
+\usetikzlibrary{shadows.blur}
+\usepackage{titletoc}
+\usepackage{calc}
+\usepackage[]{titlesec}
 
 \lstset{basicstyle={\small\ttfamily}}
 \lstset{frame=single}
 \lstset{breaklines=true}
-
-%\cftsetindents{chapter}{0.1in}{0.5in}
-%\cftsetindents{section}{-0.25in}{0.5in}
-%\cftsetindents{subsection}{-0.2in}{0.5in}
 
 \setlength{\textwidth}{\fullwidth}
 \setlength{\evensidemargin}{\oddsidemargin}
@@ -23,15 +25,11 @@
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \renewcommand{\familydefault}{\sfdefault}
 
-%%%%%
-\usepackage{tikz}
-%\usetikzlibrary{shadows.blur}
+%%%%% minitoc
+%\cftsetindents{chapter}{0.1in}{0.5in}
+%\cftsetindents{section}{-0.25in}{0.5in}
+%\cftsetindents{subsection}{-0.2in}{0.5in}
 
-\usepackage{titletoc}
-
-\usepackage{calc}
-
-\usepackage[]{titlesec}
 \definecolor{yourcolor}{HTML}{008bb2}
 
 \colorlet{chpnumbercolor}{black}
@@ -41,37 +39,40 @@
 
 \let\old@dottedcontentsline\@dottedtocline
 \def\@dottedtocline#1#2#3#4#5{%
-\old@dottedcontentsline{#1}{#2}{#3}{#4}{{\textcolor{chpnumbercolor}{#5}}}}
+  \old@dottedcontentsline{#1}{#2}{#3}{#4}{{\textcolor{chpnumbercolor}{#5}}}}
 \makeatother
 
 \titleformat{\chapter}[display]
   {\normalfont\color{yourcolor}}
   {\filleft\Huge\sffamily\bfseries\chaptertitlename\hspace*{2mm}%
-  \begin{tikzpicture}[baseline={([yshift=-.6ex]current bounding box.center)}]
-    \node[fill=yourcolor,circle,text=white] {\thechapter};
-  \end{tikzpicture}}
+    \begin{tikzpicture}[baseline={([yshift=-.6ex]current bounding box.center)}]
+      \node[fill=yourcolor,circle,text=white] {\thechapter};
+    \end{tikzpicture}}
   {1ex}
-  {\titlerule[1.5pt]\vspace*{5ex}\huge\sffamily\itshape}
+  %{\titlerule[1.5pt]\vspace*{5ex}\huge\sffamily\itshape}
+  {\titlerule[1.5pt]\vspace*{5ex}\huge\sffamily}
   []
 
 \titleformat{name=\chapter,numberless}[display]
   {\normalfont\color{yourcolor}}
   {}
   {1ex}
-  {\vspace*{5ex}\huge\sffamily\itshape}
+  %{\vspace*{5ex}\huge\sffamily\itshape}
+  {\vspace*{5ex}\huge\sffamily}
   []
 
 %command to print the acutal minitoc
 \newcommand{\printmyminitoc}{%
-    \noindent\hspace{-2cm}%
+    %\noindent\hspace{-2cm}%
+    \noindent
     \colorlet{chpnumbercolor}{white}%
     \begin{tikzpicture}
-    %\node[rounded corners,align=left,fill=yourcolor, blur shadow={shadow blur steps=5}, inner sep=5mm]{%
-    \node[rounded corners,align=left,fill=yourcolor, inner sep=5mm]{%
+      \node[rounded corners,align=left,fill=yourcolor, blur shadow={shadow blur steps=5}, inner sep=5mm]{%
+      %\node[rounded corners,align=left,fill=yourcolor, inner sep=5mm]{%
         \color{white}%
-        \begin{minipage}{10cm}%minipage trick
-        \printcontents[chapters]{}{1}{}
-        \end{minipage}};
+          \begin{minipage}{0.7\textwidth}%minipage trick
+            \printcontents[chapters]{}{1}{}
+          \end{minipage}};
     \end{tikzpicture}}
 %%%%%
 
@@ -202,7 +203,7 @@ keystone先生が飼ってるワインレッドの猫。
 \newpage
 
 \thispagestyle{empty}
-%\dominitoc
+\dominitoc
 \tableofcontents
 
 \chapter{はじめに}
@@ -226,6 +227,7 @@ OpenStackという単語を聞いたことがある人が、この本を手に�
 \chapter{OpenStackことはじめ}
 
 \startcontents[chapters]
+
 \printmyminitoc
 
 \section{OpenStack以前 ~クラウドのベンダーロックイン問題}
