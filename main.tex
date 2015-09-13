@@ -19,8 +19,12 @@
 \lstset{frame=single}
 \lstset{breaklines=true}
 
-\setlength{\textwidth}{\fullwidth}
-\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\fullwidth}{0.9\paperwidth}
+\setlength{\textwidth}{48zw}
+\setlength{\evensidemargin}{0.9in}
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\textheight}{0.9\paperheight}
+\setlength{\topmargin}{-0.7in}
 
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \renewcommand{\familydefault}{\sfdefault}
@@ -71,10 +75,11 @@
       %\node[rounded corners,align=left,fill=yourcolor, inner sep=5mm]{%
         \color{white}%
           \begin{minipage}{0.7\textwidth}%minipage trick
-            \printcontents[chapters]{}{1}{}
+            \printcontents[sections]{}{2}{}
           \end{minipage}};
     \end{tikzpicture}}
 %%%%%
+
 
 \begin{document}
 
@@ -226,7 +231,7 @@ OpenStackという単語を聞いたことがある人が、この本を手に�
 
 \chapter{OpenStackことはじめ}
 
-\startcontents[chapters]
+\startcontents[sections]
 
 \printmyminitoc
 
@@ -310,7 +315,11 @@ Keystoneはユーザ認証とロールベースのアクセスコントロール
 
 \chapter{OpenStackを動かしてみる}
 
+\startcontents[sections]
+
 \printmyminitoc
+
+\startcontents[sections]
 
 というわけで、OpenStackをセットアップしてみましょう。念入りに準備をして、その準備から外れたことはしない人いますけど、それが責任感とでも思っているんですかね。何でもやってみなくちゃ始まりません。なんとdebでもrpmでもパッケージが提供されています。ディストリビューションのリポジトリを探してみましょう。そのパッケージをインストールすればよいのです。できましたか？設定ファイルなどを書き直す必要はありますが……まぁパッケージだしデフォルトでそれなりに動くようになってはいるでしょう。じゃあ起動してみましょう。
 
@@ -615,17 +624,17 @@ Fedora 21 ServerにはCockpitというサーバーリソース管理サービス
 
 CPU、メモリ、ディスク、ネットワーク、起動中のサービスなどの基本情報に加えて、ユーザー情報、Dockerサービス、Dockerコンテナ、journalctlなんかもWebから見ることができます。
 
-\section{ブート時のインスタンスの設定}
+\chapter{ブート時のインスタンスの設定}
 
-\subsection{config\_drive}
+\section{config\_drive}
 
 インスタンスをブートする際に、そのインタンスに対してメタデータを書き込んだ特別な設定用ドライブをアタッチしてOpenStackの設定を行うことができます。その際、アタッチする設定用仮想ドライブをコンフィグドライブと呼びます。インスタンスはこのドライブをマウントしてファイルを読み情報を取得することが可能です。例えば、インスタンスへIPアドレスを割り当てる際にDHCPを使用しない場合、ネットワーク設定が書き込まれているメタデータファイルをコンフィグドライブとしてマウントして固定IPアドレスの設定をすることができます。コンフィグドライブは、インスタンスにネットワーク設定を施す前にマウントしてメタデータへのアクセスが可能になるが故、IPアドレスの設定が可能になるのです。
 
-\subsection{cloud-init}
+\section{cloud-init}
 
 コンフィグドライブから情報を取得し、ブート時にインスタンスの設定を行う際、cloud-initとの連携が必要になります。cloud-initはOpenStack固有のテクノロジーではありません。マシンイメージをマルチクラウド上に展開することができるようにするため、複数のクラウドサービスをサポートできるように設計されています。
 
-\subsection{インストール}
+\section{インストール}
 
 1. RHEL6/CentOS6
 
@@ -640,7 +649,7 @@ yum install cloud-init
 apt-get install cloud-init
 \end{lstlisting}
 
-\subsection{実用例}
+\section{実用例}
 
 cloud-initを利用することでインスタンスの起動時に任意スクリプトを実行することができます。
 
@@ -656,19 +665,19 @@ cloud_final_modules:
 
 追加した内容は下記となります。
 
-\subsubsection{scripts-per-once}
+\subsection{scripts-per-once}
 
 "/var/lib/cloud/scripts/per-once/"以下のスクリプトを実行
 
 * 初回起動時に実行 (OpenStack環境ではユーザが独自イメージを作成する際に実行される)
 
-\subsubsection{scripts-per-boot}
+\subsection{scripts-per-boot}
 
 "/var/lib/cloud/scripts/per-boot/"以下のスクリプトを実行
 
 * リブート時に実行
 
-\subsubsection{scripts-per-instance}
+\subsection{scripts-per-instance}
 
 "/var/lib/cloud/scripts/per-instance/"以下のスクリプトを実行
 
@@ -820,6 +829,8 @@ https://github.com/Project-VI/OpenStack/blob/master/5-1-userdata\_py.txt
 \section*{くろろろろ}
 
 イラスト担当のくろろろろです。人様の原稿に絵を付けたのはこれが初めてなので、とても緊張しました。表紙を見てOpenStackに少しでも興味を持って貰えると嬉しく思います。
+
+\newpage
 
 \begin{flushleft}
 \begin{minipage}{0.5\hsize}
