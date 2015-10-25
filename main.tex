@@ -3,33 +3,27 @@
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{listings}
 \usepackage{inconsolata}
-\usepackage{floatflt}
 \usepackage{url}
-\usepackage{minitoc}
+\usepackage{floatflt}
 \usepackage{wrapfig}
-\usepackage{tocloft}
-%%%%% minitoc
-\usepackage{tikz}
-\usetikzlibrary{shadows.blur}
-\usepackage{titletoc}
-\usepackage{calc}
-\usepackage[]{titlesec}
 
 \lstset{basicstyle={\small\ttfamily}}
 \lstset{frame=single}
 \lstset{breaklines=true}
 
-\setlength{\fullwidth}{0.9\paperwidth}
-\setlength{\textwidth}{48zw}
-\setlength{\evensidemargin}{0.9in}
-\setlength{\oddsidemargin}{-0.5in}
-\setlength{\textheight}{0.9\paperheight}
-\setlength{\topmargin}{-0.7in}
-
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \renewcommand{\familydefault}{\sfdefault}
 
-%%%%% minitoc
+%%%% toc
+% toc format
+%\usepackage{tocloft}
+% toc
+\usepackage{minitoc}
+\usepackage{titletoc}
+\usepackage[]{titlesec}
+\usepackage{tikz}
+\usetikzlibrary{shadows.blur}
+
 %\cftsetindents{chapter}{0.1in}{0.5in}
 %\cftsetindents{section}{-0.25in}{0.5in}
 %\cftsetindents{subsection}{-0.2in}{0.5in}
@@ -67,18 +61,18 @@
 
 %command to print the acutal minitoc
 \newcommand{\printmyminitoc}{%
-    %\noindent\hspace{-2cm}%
-    \noindent
+    \noindent\hspace{-2cm}%
+    %\noindent
     \colorlet{chpnumbercolor}{white}%
     \begin{tikzpicture}
       \node[rounded corners,align=left,fill=yourcolor, blur shadow={shadow blur steps=5}, inner sep=5mm]{%
       %\node[rounded corners,align=left,fill=yourcolor, inner sep=5mm]{%
         \color{white}%
           \begin{minipage}{0.7\textwidth}%minipage trick
-            \printcontents[sections]{}{2}{}
+            \printcontents[sections]{}{1}{}
           \end{minipage}};
     \end{tikzpicture}}
-%%%%%
+%%%%
 
 
 \begin{document}
@@ -208,7 +202,7 @@ keystone先生が飼ってるワインレッドの猫。
 \newpage
 
 \thispagestyle{empty}
-\dominitoc
+%\dominitoc
 \tableofcontents
 
 \chapter{はじめに}
@@ -313,13 +307,13 @@ NeutronはOpenStackに対してネットワークに紐付いたサービスを�
 
 Keystoneはユーザ認証とロールベースのアクセスコントロールをOpenStackに提供するためのコンポーネントです。KeystoneはLDAPと連携することでユーザコントロールやポリシーの設定が可能になります。また、伝統的なID/Passwordによるログインに加えてトークンベースのログインも可能です。
 
+\stopcontents[sections]
+
 \chapter{OpenStackを動かしてみる}
 
 \startcontents[sections]
 
 \printmyminitoc
-
-\startcontents[sections]
 
 というわけで、OpenStackをセットアップしてみましょう。念入りに準備をして、その準備から外れたことはしない人いますけど、それが責任感とでも思っているんですかね。何でもやってみなくちゃ始まりません。なんとdebでもrpmでもパッケージが提供されています。ディストリビューションのリポジトリを探してみましょう。そのパッケージをインストールすればよいのです。できましたか？設定ファイルなどを書き直す必要はありますが……まぁパッケージだしデフォルトでそれなりに動くようになってはいるでしょう。じゃあ起動してみましょう。
 
@@ -623,6 +617,8 @@ Fedora 21 ServerにはCockpitというサーバーリソース管理サービス
 \subsubsection{systemctl start cockpit}
 
 CPU、メモリ、ディスク、ネットワーク、起動中のサービスなどの基本情報に加えて、ユーザー情報、Dockerサービス、Dockerコンテナ、journalctlなんかもWebから見ることができます。
+
+\stopcontents[sections]
 
 \chapter{ブート時のインスタンスの設定}
 
