@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.5.0svn">
-    <DOCUMENT ANZPAGES="30" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="110.868661417323" BORDERTOP="78.7419470293486" BORDERBOTTOM="157.483894058697" PRESET="1" BleedTop="14.1732283464567" BleedLeft="14.1732283464567" BleedRight="14.1732283464567" BleedBottom="14.1732283464567" ORIENTATION="0" PAGESIZE="B5" FIRSTNUM="1" BOOK="1" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="1" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="en_GB" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="1" SnapToGrid="0" SnapToElement="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="1" SHOWGUIDES="1" showcolborders="1" previewMode="0" SHOWFRAME="1" SHOWControl="0" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="1" SHOWPICT="1" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.502045814642449" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10.0006299212598" dispY="10.0006299212598" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="0 1 2 3 4" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+    <DOCUMENT ANZPAGES="30" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="110.868661417323" BORDERTOP="78.7419470293486" BORDERBOTTOM="157.483894058697" PRESET="1" BleedTop="14.1732283464567" BleedLeft="14.1732283464567" BleedRight="14.1732283464567" BleedBottom="14.1732283464567" ORIENTATION="0" PAGESIZE="B5" FIRSTNUM="1" BOOK="1" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="1" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="en_GB" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="1" SnapToGrid="0" SnapToElement="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="1" SHOWGUIDES="1" showcolborders="1" previewMode="0" SHOWFRAME="1" SHOWControl="0" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.502045814642449" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10.0006299212598" dispY="10.0006299212598" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="0 1 2 3 4" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
@@ -21,12 +21,12 @@
         <COLOR NAME="White" CMYK="#00000000"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="10" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="6"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="10" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="7"/>
         <STYLE NAME="目次" ALIGN="2" LINESPMode="0" LINESP="13" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="8"/>
         <STYLE NAME="ページ数" ALIGN="0" LINESPMode="0" LINESP="13" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="8"/>
         <STYLE NAME="章" ALIGN="2" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="16"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_GB"/>
-        <CHARSTYLE CNAME="ページ数" FONT="Kozuka Mincho Pro L" FONTSIZE="8" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_GB"/>
+        <CHARSTYLE CNAME="ページ数" FONT="Kozuka Mincho Pro L" FONTSIZE="5" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_GB"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
                 <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
@@ -57,8 +57,10 @@
         </CellStyle>
         <LAYERS NUMMER="0" LEVEL="0" NAME="背景" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markLength="20.0013" markOffset="0" BleedTop="14.1732283464567" BleedLeft="14.1732283464567" BleedRight="14.1732283464567" BleedBottom="14.1732283464567" printer="Adobe PDF" filename="C:/Users/Shuichiro Makigaki/Documents/main.ps" separationName="全て" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markLength="20.0012598425197" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
-            <LPI Color="" Frequency="0" Angle="0" SpotFunction="0"/>
+        <PDF firstUse="0" Thumbnails="1" Articles="0" Bookmarks="0" Compress="0" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="0" markLength="20.0012598425197" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Kozuka Gothic Pro R"/>
+            <Subset Name="Kozuka Mincho Pro L"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -128,22 +130,22 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="27" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="598.898267716536" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="28" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="11249.9177952756" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="29" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="553.543937007874" YPOS="700.316220472441" OwnPage="1" ItemID="125825056" PTYPE="4" WIDTH="28.3464566929134" HEIGHT="14.1732283464567" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" copath="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" OnMasterPage="標準 右" gXpos="26499501.5754495" gYpos="289674900.025584" gWidth="0" gHeight="0" PSTYLE="ページ数" ALIGN="2" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="553.543937007874" YPOS="700.316220472441" OwnPage="1" ItemID="93581328" PTYPE="4" WIDTH="28.3464566929134" HEIGHT="14.1732283464567" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" copath="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" OnMasterPage="標準 右" gXpos="34731312.599069" gYpos="382321711.44294" gWidth="0" gHeight="0" PSTYLE="ページ数" ALIGN="2" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno" CPARENT="ページ数"/>
             <trail PARENT="ページ数" ALIGN="2"/>
         </MASTEROBJECT>
-        <MASTEROBJECT XPOS="113.843149606299" YPOS="700.316220472441" OwnPage="0" ItemID="125023984" PTYPE="4" WIDTH="28.3464566929134" HEIGHT="14.1732283464567" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" copath="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" OnMasterPage="標準 左" gXpos="113.843149606299" gYpos="316173011.082603" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="113.843149606299" YPOS="700.316220472441" OwnPage="0" ItemID="93531408" PTYPE="4" WIDTH="28.3464566929134" HEIGHT="14.1732283464567" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" copath="M0 0 L28.3465 0 L28.3465 14.1732 L0 14.1732 L0 0 Z" OnMasterPage="標準 左" gXpos="113.843149606299" gYpos="408819822.499959" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno" CPARENT="ページ数"/>
             <trail PARENT="ページ数"/>
         </MASTEROBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="125853552" PTYPE="4" WIDTH="388.028976377953" HEIGHT="22.0689763779519" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 22.069 L0 22.069 L0 0 Z" copath="M0 0 L388.029 0 L388.029 22.069 L0 22.069 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="95205184" PTYPE="4" WIDTH="388.028976377953" HEIGHT="22.0689763779519" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 22.069 L0 22.069 L0 0 Z" copath="M0 0 L388.029 0 L388.029 22.069 L0 22.069 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 1.はじめに"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.1" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1618.82677165354" OwnPage="3" ItemID="125856400" PTYPE="4" WIDTH="388.028976377953" HEIGHT="551.72377952756" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 551.724 L0 551.724 L0 0 Z" copath="M0 0 L388.029 0 L388.029 551.724 L0 551.724 L0 0 Z" gXpos="155.434960629921" gYpos="1618.82677165354" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1618.82677165354" OwnPage="3" ItemID="95170592" PTYPE="4" WIDTH="388.028976377953" HEIGHT="551.72377952756" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 551.724 L0 551.724 L0 0 Z" copath="M0 0 L388.029 0 L388.029 551.724 L0 551.724 L0 0 Z" gXpos="155.434960629921" gYpos="1618.82677165354" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="「ではみなさんは、そういうふうに川だと云われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指しながら、みんなに問をかけました。"/>
             <para/>
             <ITEXT CH="「ジョバンニさん。あなたはわかっているのでしょう。」"/>
@@ -165,11 +167,11 @@
             <ITEXT CH="やっぱり星だとジョバンニは思いましたがこんどもすぐに答えることができませんでした。"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="125114704" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="95345360" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Contents"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="127354688" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="95415584" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="CH.1"/>
             <tab/>
             <ITEXT CH="1"/>
@@ -186,15 +188,42 @@
                 <ItemAttribute Name="toc" Type="" Value="" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="127359360" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="94240240" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 2. How to contribute to OpenStack"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.2" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="127364032" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Gerritというシステムを使ってパッチのレビューとマージを行っています。Githubはあくまでミラーであり、プルリクエストを送ってもマージされません。また、メーリングリストでのコードレビューも行われていません。"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="95551344" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="92805856" BACKITEM="-1">
+            <ITEXT CH="OpenStackの開発に参加するためには、最初に少し準備が必要になります。Githubはあくまでミラーであり、プルリクエストを送ってもマージされません。また、メーリングリストでのコードレビューも行われていません。これらの代わりに、Gerritというシステムを使ってパッチのレビューとマージを行っています。まず、OpenStack開発の概要を述べていきます。"/>
+            <para/>
+            <ITEXT CH="開発者"/>
+            <para/>
+            <ITEXT CH="本家の集計によれば、世界177ヶ国からのべ32326人の開発者がいるそうです。"/>
+            <para/>
+            <ITEXT CH="意志決定"/>
+            <para/>
+            <ITEXT CH="Linuxカーネルの開発コミュニティーには「Linus Torvalds」という職業がありますが、OpenStackにはそのような役割の人はいません。"/>
+            <para/>
+            <ITEXT CH="コミュニケーション戦略"/>
+            <para/>
+            <ITEXT CH="ツールとしては主にメーリングリストとIRCが使われています。"/>
+            <para/>
+            <ITEXT CH="バグトラッキング"/>
+            <para/>
+            <ITEXT CH="Launchpadというサービスを使っています。ちょっと重いのが難点……。"/>
+            <para/>
+            <ITEXT CH="コードレビュー"/>
+            <para/>
+            <ITEXT CH="Gerritというコードレビューシステムを使っています。OpenStackはGithubにミラーレポジトリがありますが、Githubのプルリクエストは受け付けていませんので注意して下さい。また、メーリングリストでのパッチレビューも行われていません。"/>
+            <para/>
+            <ITEXT CH="仕様決定"/>
+            <para/>
+            <ITEXT CH="新規機能の追加に関しては、LaunchpadのBlueprintという機能を使っています。Bluepintで簡単な説明とステータストラッキングを行い、技術的仕様はSPECという仕組みで議論されます。と言っても、コンポーネントごとに決められたフォーマットとテンプレートを使って仕様を書き、それをコードレビューと同じ仕組みで議論しているだけです。ほとんどの場合、SpecはRST（restructuredtext）型式で書かれ、Gerrit上でコメントをやりとりすることで進められていきます。"/>
+            <para/>
+            <para/>
+            <ITEXT CH="OpenStack開発"/>
             <para/>
             <ITEXT CH="メールアドレスを1つ選ぶ（作成する）"/>
             <para/>
@@ -214,7 +243,7 @@
             <para/>
             <ITEXT CH="Affiliation"/>
             <para/>
-            <ITEXT CH="すぐ下に記載されている説明によると「過去12ヶ月間において、$60,000 USDを給与として契約している組織」を書きます。要するに、勤め人の場合は会社名になりますね。あてはまる組織がない場合は、「Unaffiliated」と書けばよいみたいです。"/>
+            <ITEXT CH="すぐ下に記載されている説明によると「過去12ヶ月間において、$60,000 USDの給与契約を結んでいる組織」を書きます。要するに、勤め人の場合は会社名になりますね。あてはまる組織がない場合は、「Unaffiliated」と書けばよいみたいです。いやしかし、基準が超高給過ぎやしませんかね……。"/>
             <para/>
             <ITEXT CH="Statement of Interest"/>
             <para/>
@@ -231,14 +260,43 @@
             <ITEXT CH="OpenStackはコードレビューにGerritというシステムを使っています。右上のLoginをクリックしてログインします。このアカウントはLaunchpad OpenIDでのシングルサインオンになっています。初回ログイン時にユーザー名を設定します。あとで変更はできないので気を付けましょう。"/>
             <para/>
             <ITEXT CH="GerritでICLAにサインする"/>
-            <trail/>
+            <para/>
+            <para/>
+            <ITEXT CH="パッチの作成"/>
+            <para/>
+            <ITEXT CH="バグの登録"/>
+            <para/>
+            <ITEXT CH="パッチを書こうと言っても「何を直せばいいのかわからない」・「バグがない」と言ったことが聞かれます。が、これは全くその通りです。少し前はバグが多かったので、ちょっと試してみるだけでもバグに当たりましたが、最近ではバグも減り、なかなかそういうこともなくなってきました。そこで、簡単なまずはパッチを書いてみるにあたり、何のパッチを書くかについて、すこしまとめてみると、"/>
+            <para/>
+            <ITEXT CH="使ってみて、不具合にぶち当たり、それを直す"/>
+            <para/>
+            <ITEXT CH="Launchpadにバグ登録されている中からみつける"/>
+            <para/>
+            <ITEXT CH="コメントやドキュメントの修正を行う"/>
+            <para/>
+            <ITEXT CH="あたりが、最初には良いと思います。"/>
+            <para/>
+            <ITEXT CH="バグ修正用ブランチの作成"/>
+            <para/>
+            <ITEXT CH="GerritにパッチをPush"/>
+            <para/>
+            <para/>
+            <ITEXT CH="レビュー"/>
+            <para/>
+            <para/>
+            <ITEXT CH="マージ"/>
+            <para/>
+            <para/>
+            <ITEXT CH="オープンソースソフトウェアとオープンソースコミュニティーで開発するということ"/>
+            <para/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="125718320" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="96845856" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 3. Swift: The object storage primer"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.3" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="2321.4188976378" OwnPage="6" ItemID="92805856" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="95551344"/>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
