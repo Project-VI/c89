@@ -83,7 +83,7 @@
             <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
         </NotesStyles>
         <NotesFrames>
-            <FOOTNOTEFRAME NSname="Default" myID="395114384" MasterID="110253808"/>
+            <FOOTNOTEFRAME NSname="Default" myID="110254944" MasterID="109682736"/>
         </NotesFrames>
         <Notes>
             <Note Master="NoteMark_Default_3" NStyle="Default" Text="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;SCRIBUSTEXT &gt;&lt;defaultstyle parent=&quot;脚注&quot; /&gt;&lt;p &gt;&lt;style parent=&quot;脚注&quot; /&gt;&lt;span &gt;&lt;charstyle /&gt;脚注&lt;/span&gt;&lt;/p&gt;&lt;/SCRIBUSTEXT&gt;&#10;"/>
@@ -144,25 +144,25 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="27" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="598.898267716536" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="28" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="11249.9177952756" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="29" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="183931104" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="3826103.08661373" gYpos="43056205.4968467" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="111259680" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="6903303.716537" gYpos="77689268.0921188" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="2"/>
         </MASTEROBJECT>
-        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="184762128" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="43056206.9968467" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="108901984" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="77689269.5921188" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="0"/>
         </MASTEROBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="109216368" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="110252096" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 1.はじめに"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.1" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="395114384" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="395114384" ANNAME="Footnote frame Default" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
-            <WeldEntry Target="110253808" WX="0" WY="0"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="110254944" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="110254944" ANNAME="Footnote frame Default (2)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
+            <WeldEntry Target="109682736" WX="0" WY="0"/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="110253808" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="109682736" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="「ではみなさんは、そういうふうに川だと云われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指しながら、みんなに問をかけました。"/>
             <para/>
             <ITEXT CH="「ジョバンニさん。あなたはわかっているのでしょう。」"/>
@@ -190,11 +190,11 @@
             <ITEXT CH="。"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="110237456" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="111398176" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Contents"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="110603600" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="109338048" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="CH.1"/>
             <tab/>
             <ITEXT CH="1"/>
@@ -211,14 +211,14 @@
                 <ItemAttribute Name="toc" Type="" Value="" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="110242128" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="109875248" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 2. How to contribute to OpenStack"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.2" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="110246800" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="112603200" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="111697776" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113648192" BACKITEM="-1">
             <ITEXT CH="OpenStackの開発に参加するためには、最初に少し準備が必要になります。Githubはあくまでミラーであり、プルリクエストを送ってもマージされません。また、メーリングリストでのコードレビューも行われていません。これらの代わりに、Gerritというシステムを使ってパッチのレビューとマージを行っています。まず、OpenStack開発の概要を述べていきます。"/>
             <para/>
             <ITEXT CH="開発者"/>
@@ -315,17 +315,37 @@
             <para/>
             <ITEXT CH="バグの登録"/>
             <para/>
-            <ITEXT CH="パッチを書こうと言っても「何を直せばいいのかわからない」・「バグがない」と言ったことが聞かれます。が、これは全くその通りです。少し前はバグが多かったので、ちょっと試してみるだけでもバグに当たりましたが、最近ではバグも減り、なかなかそういうこともなくなってきました。そこで、簡単なまずはパッチを書いてみるにあたり、何のパッチを書くかについて、すこしまとめてみると、"/>
+            <ITEXT CH="パッチを書こうと言っても「何を直せばいいのかわからない」・「バグがない」といった声をよく聞きます。が、これは全くその通りです。少し前はバグが多かったので、ちょっと試してみるだけでもバグに当たりましたが、最近ではバグも減り、なかなかそういうこともなくなってきました。そこで、まずはパッチを書いてみるにあたり、何のパッチを書くかについて、すこしまとめてみると、以下のような観点からバグを探すのがよいと思います。"/>
+            <para/>
             <para/>
             <ITEXT CH="使ってみて、不具合にぶち当たり、それを直す"/>
             <para/>
+            <ITEXT CH="これは結構ちゃんと使い始めないとなかなか無いかもしれません。手元のマシンで試しに動かしているだけという場合、開発者も同じような環境で開発していることも多いので、ちょっとしたバグには当たりにくいかもしれません。"/>
+            <para/>
+            <para/>
             <ITEXT CH="Launchpadにバグ登録されている中からみつける"/>
+            <para/>
+            <ITEXT CH="すべての既知のバグはLaunchpadに登録されていますので、このなかから簡単そうなものを見つくろって直してみる方法です。とはいえNovaのような大きなプロジェクトでは（残念というか選び放題というか）膨大な量のバグが登録されています。なので、このリストをながめていてもなかなか見つかりません。こつとしては、"/>
+            <para/>
+            <ITEXT CH="AssigneeがNoneになっているもの"/>
+            <para/>
+            <ITEXT CH="law-hanging-fluitタグが付いているもの"/>
+            <para/>
+            <ITEXT CH="といったものだけを検索してみるといいと思います。"/>
+            <para/>
             <para/>
             <ITEXT CH="コメントやドキュメントの修正を行う"/>
             <para/>
-            <ITEXT CH="あたりが、最初には良いと思います。"/>
+            <ITEXT CH="まぁ確かにソースコード内のコメントのタイポ修正だけというのは物足りないとは思いますが、どうもドキュメントの修正も同じように残念がる人が多くていけません。ドキュメントの不足や、自分が試してみた時に困った点や、そもそもドキュメントが現状と一致していない点を発見したら、どんどん直していきましょう。全くもって恥ずべきことではありません。OpenStackはプロジェクトが大きいぶん、ドキュメントの不足が目立ちます。「こんなドキュメントじゃわかんねーよ！ハマったよ！」ということがありましたら、どんどん改善していって欲しいと思います。"/>
+            <para/>
+            <para/>
+            <ITEXT CH="どの方法をとるにせよ、「直すのが簡単そうなバグ」というのはバグチケットからでは分かりにくいものです。ぱっとみ簡単そうに見えて、修正を始めたら実はとんでもない泥沼が……、なんてこともままあります。特に、ぱっとみ簡単そうなのに、1年前からAssigneeがとっかえひっかえ変わっているようなバグチケットを見つけたら、それは危険かもしれません。ちなみに、そのようなバグであっても自身が困っているのであれば、気合いを入れて直すべき、というのが本来の姿ではありますけどね。筆者の知り合いには、毎日の出勤電車の中でバグリストをながめて良さげなものを探すのを日課にしているような人もいます。物件探しみたいですね。"/>
+            <para/>
             <para/>
             <ITEXT CH="バグ修正用ブランチの作成"/>
+            <para/>
+            <ITEXT CH="とにかく、いざ修正を始める段階にきたとしましょう。"/>
+            <para/>
             <para/>
             <ITEXT CH="GerritにパッチをPush"/>
             <para/>
@@ -336,31 +356,40 @@
             <ITEXT CH="マージ"/>
             <para/>
             <para/>
+            <ITEXT CH="コードレビューをする"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Gerritを便利に使う"/>
+            <para/>
+            <para/>
             <ITEXT CH="オープンソースソフトウェアとオープンソースコミュニティーで開発するということ"/>
             <para/>
+            <para/>
+            <ITEXT CH="オープンソース活動をするということ（企業戦士編）"/>
+            <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="108638224" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="113627168" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 3. Swift: The object storage primer"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.3" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="112603200" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="112606048" BACKITEM="110246800"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="112606048" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="112603200"/>
-        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="120448480" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="113648192" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113652864" BACKITEM="111697776"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="113652864" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="113648192"/>
+        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="109879920" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="120301104" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="109884480" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="184716000" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/椅子の人.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="109555760" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/椅子の人.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="116960336" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="109558496" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="185410624" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/眼鏡3.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="109563056" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.06" LOCALSCY="0.06" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="img/眼鏡3.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
     </DOCUMENT>
