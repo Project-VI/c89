@@ -84,8 +84,8 @@
             <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
         </NotesStyles>
         <NotesFrames>
-            <FOOTNOTEFRAME NSname="Default" myID="108395488" MasterID="108400192"/>
-            <FOOTNOTEFRAME NSname="Default" myID="108628784" MasterID="108631664"/>
+            <FOOTNOTEFRAME NSname="Default" myID="93577728" MasterID="95231952"/>
+            <FOOTNOTEFRAME NSname="Default" myID="95840704" MasterID="95845408"/>
         </NotesFrames>
         <Notes>
             <Note Master="NoteMark_Default_3" NStyle="Default" Text="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;SCRIBUSTEXT &gt;&lt;defaultstyle parent=&quot;脚注&quot; /&gt;&lt;p &gt;&lt;style parent=&quot;脚注&quot; /&gt;&lt;span &gt;&lt;charstyle /&gt;脚注&lt;/span&gt;&lt;/p&gt;&lt;/SCRIBUSTEXT&gt;&#10;"/>
@@ -147,25 +147,25 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="27" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="598.898267716536" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="28" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="11249.9177952756" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="29" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="108673584" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="25935250.8031658" gYpos="291888696.089047" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="94314544" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="37561561.3543259" gYpos="422739683.55996" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="2"/>
         </MASTEROBJECT>
-        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="110379040" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="291888697.589047" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="93356528" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="422739685.05996" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="0"/>
         </MASTEROBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="108390816" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="93361200" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 1.はじめに"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.1" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="108395488" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="108395488" ANNAME="Footnote frame Default" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
-            <WeldEntry Target="108400192" WX="0" WY="0"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="93577728" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="93577728" ANNAME="Footnote frame Default (2)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
+            <WeldEntry Target="95231952" WX="0" WY="0"/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="108400192" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="95231952" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="「ではみなさんは、そういうふうに川だと云われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指しながら、みんなに問をかけました。"/>
             <para/>
             <ITEXT CH="「ジョバンニさん。あなたはわかっているのでしょう。」"/>
@@ -193,11 +193,11 @@
             <ITEXT CH="。"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="110518288" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="93588592" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Contents"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="110985232" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="95199248" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="CH.1"/>
             <tab/>
             <ITEXT CH="1"/>
@@ -214,14 +214,14 @@
                 <ItemAttribute Name="toc" Type="" Value="" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="108642288" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="93612256" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 2. How to contribute to OpenStack"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.2" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="108625936" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="110544032" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="93616928" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="95836032" BACKITEM="-1">
             <ITEXT CH="OpenStackの開発に参加するためには、最初に少し準備が必要になります。Githubはあくまでミラーであり、プルリクエストを送ってもマージされません。また、メーリングリストでのコードレビューも行われていません。これらの代わりに、Gerritというシステムを使ってパッチのレビューとマージを行っています。まず、OpenStack開発の概要を述べていきます。"/>
             <para/>
             <ITEXT CH="開発者"/>
@@ -413,7 +413,7 @@
             <para/>
             <ITEXT CH="HTTPSでのセットアップをした場合、GerritへコードをPushするにはHTTPS用のパスワードを生成する必要がありますので、ここで生成しておきましょう。https://review.openstack.org/#/settings/http-password"/>
             <para/>
-            <ITEXT CH="なお、任意の文字列を設定することはできません。"/>
+            <ITEXT CH="なお、任意の文字列を設定することはできません。パスワードを設定しなおすことはできます。"/>
             <para/>
             <para/>
             <ITEXT CH="ブランチの作成"/>
@@ -426,7 +426,16 @@
             <para/>
             <ITEXT CH="git checkout bug/123456"/>
             <para/>
-            <ITEXT CH="bug/の後ろの数字はLaunchpadのバグ番号を書いておくとよいでしょう。と言っても、これはあくまで慣習であり、必ずこうでなければならない、という決まりはありませんが、慣習を破るとGerrit上でブランチ名が重複したりしますので、従っておくのが無難かと思います。"/>
+            <ITEXT CH="bug/の後ろの数字はLaunchpadのバグ番号を書いておくとよいでしょう。と言っても、これはあくまで慣習であり、必ずこうでなければならない、という決まりはありません。が、慣習を破るとGerrit上でブランチ名が重複したりしますので、従っておくのが無難かと思います。"/>
+            <para/>
+            <para/>
+            <ITEXT CH="テスト"/>
+            <para/>
+            <ITEXT CH="./run_tests.sh"/>
+            <para/>
+            <ITEXT CH="tox. -e test"/>
+            <para/>
+            <ITEXT CH="少なくとも一回はテストをしておきましょう。"/>
             <para/>
             <para/>
             <ITEXT CH="コミットメッセージ"/>
@@ -453,17 +462,76 @@
             <para/>
             <ITEXT CH="レビュー"/>
             <para/>
+            <ITEXT CH="パッチはコアレビュアーの人が順番に優先順位の高いものからレビューをしていきます。なので、パッチをアップロードしてすぐに反応があることはあまりありません。パッチの数が膨大ですし、もちろん時差もあります。大抵の場合、一発でパッチがマージされることはありません。直して欲しい点や疑問点などをコメントされますので、修正して彩度アップロードすることになります。"/>
+            <para/>
+            <ITEXT CH="ここで問題となるのは「－１」です。先ほどコードがマージされるまでにはコアレビュアーの人２名から”＋２”をもらう必要があると言いましたが、「このパッチには問題があるから、マージしないほうがいいかも」と思った場合、”－１”というフラグを付けられることがあります。この”－１”がフラグがあるとコードがマージされにくくなります。コアレビュアーから見ると、「まだ何か問題があるのかも？」と思われがちだからです。"/>
+            <para/>
+            <ITEXT CH="が、この－１は別にコードに対してイマイチな点があると言っているだけで、それほど凹むことではないことに気を付けて下さい。別にパッチを送ったことに対して怒っているわけでも、ましてや人格を否定しているわけでもありません。大抵の場合は、ちゃんと理由があり、しかもそれなりにまっとうな理由（例えば使うべきライブラリを使用していないとか、スレッドセーフではないとか、環境に深く依存するコードになってしまっているとか）で－１フラグを付けています。そもそもコメントさえもらえずに忘れ去れていくパッチがほとんどの中、コメントくれるだけでもラッキーと思うべきでしょう、"/>
+            <para/>
+            <ITEXT CH="ただ、軽い気持ちで－１フラグを付けてくる人も結構います。これはOpenStackコミュニティーでも問題視されています。例えばタイポで－１フラグを付けたりとか、実装への質問で－１フラグを付けたりとか、最も困るのはコメント無しで－１フラグだけ付けてくる場合です。このような開発スピードをただ遅くするだけの－１フラグはやめよう、という動きになっています。"/>
+            <para/>
+            <ITEXT CH="まぁこれは筆者の予想ですが、OpenStack開発を仕事としてやっている人達はおおくいて（今のLinuxカーネル開発も同様ですね）、そのような人達はフラグを付けた数を会社にトラッキングされていることがあります。つまり、建設的にコメントだけしてもメシの種にならんというわけですね。まぁ諸説ありますが。"/>
+            <para/>
             <para/>
             <ITEXT CH="レビュー後の修正"/>
+            <para/>
+            <ITEXT CH="修正はやはりバグ修正ブランチでの作業になります。修正したらコミットするのですが、ここで注意して欲しいのは「新しいコミットオブジェクトを作成しない」ということです。具体的には　"/>
+            <para/>
+            <ITEXT CH="git commit --amend"/>
+            <para/>
+            <ITEXT CH="のように、amendオプションで前回のコミットを上書きします。これには理由があります。先ほど最初にコミットをしたさいに、ChangeIDが生成されていることを確認しました。このChangeIDはコミットする際に自動的に生成され、コミットメッセージに追記されます。Gerrit上ではこのChangeIDがパッチを識別するIDとなっています。このIDが変わってしまうと、別のパッチとしてGerritに扱われてしまうため、パッチの修正履歴やコメント履歴が無くなってしまいます。amendオプションでIDを変えずに彩度git reviewでアップロードすることで、同じパッチの修正版としてアップロードすることができます。これで同じURLにアクセスすることができますので、コメント履歴や修正履歴を残すことができます。レビューする側としても、前回パッチとの差分が簡単に把握できますので、レビューしやすくなります。"/>
+            <para/>
+            <ITEXT CH="技術的な観点から言うと、Gerrit上ではパッチをコミットIDではなく独自のChangeIDで区別し、各CangeIDのバージョンをgitのrefオブジェクトに割り当てることで、「パッチのバージョン」という概念を持てるようにしています。別の見方をすると、コミットIDは違うけど、ChangeIDは同じというわけです。"/>
+            <para/>
+            <ITEXT CH="コードがマージされるまで、つまり問題点がなくなるまでこの修正と新バージョンのアップロードを繰り返すことになります。"/>
             <para/>
             <para/>
             <ITEXT CH="マージ"/>
             <para/>
+            <ITEXT CH="コアレビュアーの人２名から＋２フラグを付けられたらマージ対象となります。結合テストのキューに自動的に入り、終了後にマージされます。ほっとする瞬間です。"/>
+            <para/>
             <para/>
             <ITEXT CH="バックポート"/>
             <para/>
+            <ITEXT CH="さて修正したバグですが、重要なバグと扱われた場合は、stableブランチへのバックポートを依頼されることがあります。Launchpadのコメントからstable/kiloの方も修正してよついでに、なんて言われたりします。図らずも、２つもコミットできちゃうというわけです。"/>
+            <para/>
+            <ITEXT CH="バックポートは、ローカルの作業としてはgitのcherrypickです。"/>
+            <para/>
+            <ITEXT CH="git checkout master"/>
+            <para/>
+            <ITEXT CH="git pull"/>
+            <para/>
+            <ITEXT CH="で最新のコードをダウンロードし、自身のパッチのCommitIDを見つけます（MergeコミットのIDではなく、Merge元のID）。たとえばkiloバージョンのブランチにバックポートする場合は"/>
+            <para/>
+            <ITEXT CH="git checkout stable/kilo"/>
+            <para/>
+            <ITEXT CH="でkilo用のブランチに移動し"/>
+            <para/>
+            <ITEXT CH="git cherrypick &lt;先ほどのCommitID&gt;"/>
+            <para/>
+            <ITEXT CH="とすることでバックポートできます。コンフリクトが起きなければあとは"/>
+            <para/>
+            <ITEXT CH="git review stable/kilo"/>
+            <para/>
+            <ITEXT CH="でkilo用のブランチへのパッチとしてGerritにアップロードします。その後のレビュープロセスはMasterブランチのそれと同じです。"/>
+            <para/>
+            <para/>
+            <ITEXT CH="コミットの分割"/>
+            <para/>
+            <ITEXT CH="最初のうちはあまり大きなパッチを書くことはないですが、慣れてきてすこし大きなパッチ（新機能の開発とか）を書くような場合にはコミットを分割してレビューを安全に行う必要が出てきます。あまり大きなコミットを作るとレビューしにくくてしょうがありません。"/>
+            <para/>
+            <ITEXT CH="パッチの分割は簡単で、つまり新しくcommitするだけです。amendしない場合は新しいコミットオブジェクトが作成され、そのコミットには自動で新しいChangeIDが追記されます。ChangeIDが違えば別のパッチとしてレビューにアップロードされますが、依存関係にある１つ前のパッチへのリングが自動的にトラッキングされレビュー画面からも簡単にアクセスできるようになります。１つ前のコミットを修正したら、その上にあるコミットはrebaseする必要があります。"/>
+            <para/>
             <para/>
             <ITEXT CH="コードレビューをする"/>
+            <para/>
+            <ITEXT CH="ところで、コードレビューをする人ってどんな人だと思いますか？答えはあなたです。たぶん勘違いしていると思いますが、別にコアレビュアーでなくてもコーどれびゅーをしていいのです、というかコアレビュアーではない開発者のレビューを大いに必要としています。「あれ？こっちの実装の方がよくない？」といったコメントは大いに歓迎されます。「何でこんな実装をしているんだろう？」といった疑問は大いにアリです。自分が分からないことは他人も分かってないことが多いです。"/>
+            <para/>
+            <ITEXT CH="コアレビュアーは昔コアレビュアーではなかった人達です。割と熱心に他人のコードをレビューしコメントを書いているような人達が、コアレビュアーに推薦され＋２フラグを付ける権限を受けます。何も特別な人達ではありません。OpenStackに限らずオープンソース開発においては誰もがコードレビューをすることができます。"/>
+            <para/>
+            <ITEXT CH="まずは自分が困っているバグの修正パッチをながめてみましょう。「ふーん。なんか動きそうだな。」って思ったら＋１フラグを付ければよし。「いや待て、その実装じゃうちじゃ動かん」と思ったらコメントすればよし。「何やってるかさっぱり分からんからコメント書くかわかり安いロジックに直してくれ」とか思ったら、その通りコメントすればよし。間違ったコメントしちゃったら「あ、そういうことか。ごめん勘違いした。＋１」ってすればいいのです。"/>
+            <para/>
+            <ITEXT CH="こまめにコードレビューをしていると、自分のパッチを気にかけてくれる人も増えますので自分のパッチがレビューされやすくなり、最終的にはマージされやすくなります。何か見たことある人のパッチが何となく優先度が上がります。なかなかウェットな世界でOpenStackは作られています。"/>
             <para/>
             <para/>
             <ITEXT CH="Blueprint"/>
@@ -478,34 +546,36 @@
             <ITEXT CH="オープンソース活動をするということ（企業戦士編）"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="110539360" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="93621600" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 3. Swift: The object storage primer"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.3" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="110544032" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="108631664" BACKITEM="108625936"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3667.87275590551" OwnPage="7" ItemID="108628784" PTYPE="4" WIDTH="388.028976377953" HEIGHT="8.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="108628784" ANNAME="Footnote frame Default (2)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
-            <WeldEntry Target="108631664" WX="0" WY="0"/>
+        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="95836032" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="95845408" BACKITEM="93616928"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3667.87275590551" OwnPage="7" ItemID="95840704" PTYPE="4" WIDTH="388.028976377953" HEIGHT="8.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="95840704" ANNAME="Footnote frame Default (3)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
+            <WeldEntry Target="95845408" WX="0" WY="0"/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="108631664" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="112173088" BACKITEM="110544032"/>
-        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="108636336" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="95845408" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="101617680" BACKITEM="95836032"/>
+        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="97366048" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="110968880" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="97370608" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="110973440" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/本.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="97375168" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/本.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="110978000" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="93595904" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="110980736" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/眼鏡.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="101543968" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/眼鏡.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="654.332598425197" YPOS="3070.08" OwnPage="8" ItemID="112173088" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="112175936" BACKITEM="108631664"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3818.74110236221" OwnPage="9" ItemID="112175936" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="112173088"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="3070.08" OwnPage="8" ItemID="101617680" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="101620528" BACKITEM="95845408"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3818.74110236221" OwnPage="9" ItemID="101620528" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="181623472" BACKITEM="101617680"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="3818.74110236221" OwnPage="10" ItemID="181623472" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="98296880" BACKITEM="101620528"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="4567.40220472441" OwnPage="11" ItemID="98296880" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="4567.40220472441" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="181623472"/>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
