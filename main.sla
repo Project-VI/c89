@@ -22,14 +22,19 @@
         <COLOR NAME="Yellow" CMYK="#0000ff00"/>
         <COLOR NAME="undef" RGB="#966432"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="12" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="7"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="14" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="4" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="7"/>
         <STYLE NAME="目次" ALIGN="2" LINESPMode="0" LINESP="13" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="8"/>
         <STYLE NAME="ページ数" ALIGN="2" LINESPMode="0" LINESP="13" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Mincho Pro B" FONTSIZE="7"/>
         <STYLE NAME="章" ALIGN="2" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="18"/>
-        <STYLE NAME="節" ALIGN="2" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="14"/>
-        <STYLE NAME="等幅" ALIGN="0" LINESPMode="0" LINESP="12" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Inconsolata Medium" FONTSIZE="7"/>
+        <STYLE NAME="節" ALIGN="2" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="12" NACH="4" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro B" FONTSIZE="14"/>
+        <STYLE NAME="等幅" ALIGN="0" LINESPMode="0" LINESP="8" INDENT="8.50393700787402" RMARGIN="0" FIRST="0" VOR="8" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Inconsolata Medium" FONTSIZE="8"/>
         <STYLE NAME="脚注" ALIGN="0" LINESPMode="0" LINESP="7" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="6"/>
+        <STYLE NAME="項" ALIGN="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="12" NACH="2" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" FONT="Kozuka Gothic Pro B" FONTSIZE="11"/>
+        <STYLE NAME="太字" ALIGN="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="4" NACH="2" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" KeepLinesStart="0" KeepLinesEnd="0" FONT="Kozuka Gothic Pro B" FONTSIZE="7"/>
+        <STYLE NAME="箇条書き" ALIGN="0" LINESPMode="1" LINESP="12" INDENT="0" RMARGIN="0" FIRST="8.50393700787402" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="1" BulletStr="•" Numeration="0" FONT="Kozuka Gothic Pro R" FONTSIZE="7"/>
+        <STYLE NAME="None" LINESPMode="0" LINESP="14" KERN="0"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_GB"/>
+        <CHARSTYLE CNAME="等幅" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_GB"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
                 <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
@@ -84,8 +89,8 @@
             <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
         </NotesStyles>
         <NotesFrames>
-            <FOOTNOTEFRAME NSname="Default" myID="110036768" MasterID="109043744"/>
-            <FOOTNOTEFRAME NSname="Default" myID="108331584" MasterID="108164944"/>
+            <FOOTNOTEFRAME NSname="Default" myID="109088816" MasterID="109093520"/>
+            <FOOTNOTEFRAME NSname="Default" myID="208725744" MasterID="113262208"/>
         </NotesFrames>
         <Notes>
             <Note Master="NoteMark_Default_3" NStyle="Default" Text="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;SCRIBUSTEXT &gt;&lt;defaultstyle parent=&quot;脚注&quot; /&gt;&lt;p &gt;&lt;style parent=&quot;脚注&quot; /&gt;&lt;span &gt;&lt;charstyle /&gt;脚注&lt;/span&gt;&lt;/p&gt;&lt;/SCRIBUSTEXT&gt;&#10;"/>
@@ -147,25 +152,25 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="27" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="598.898267716536" PAGEYPOS="10501.2566929134" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="28" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="11249.9177952756" PAGEWIDTH="498.897637795276" PAGEHEIGHT="708.661417322835" BORDERLEFT="55.4343307086614" BORDERRIGHT="55.4343307086614" BORDERTOP="55.4343307086614" BORDERBOTTOM="55.4343307086614" NUM="29" NAM="" MNAM="表紙" Size="B5" Orientation="0" LEFT="0" PRESET="2" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="110051296" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="47846835.0550443" gYpos="538497663.207246" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="556" YPOS="705.5" OwnPage="1" ItemID="109097840" PTYPE="4" WIDTH="35" HEIGHT="14.8240944881891" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" copath="M0 0 L35 0 L35 14.8241 L0 14.8241 L0 0 Z" OnMasterPage="標準 右" gXpos="104493668.44105" gYpos="1176042484.75726" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="2"/>
         </MASTEROBJECT>
-        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="108335056" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="538497664.707246" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="113" YPOS="707" OwnPage="0" ItemID="109965328" PTYPE="4" WIDTH="32.3549606299214" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" copath="M0 0 L32.355 0 L32.355 14 L0 14 L0 0 Z" OnMasterPage="標準 左" gXpos="113" gYpos="1176042486.25726" gWidth="0" gHeight="0" PSTYLE="ページ数" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <var name="pgno"/>
             <trail ALIGN="0"/>
         </MASTEROBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="108243968" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1572.75779527559" OwnPage="3" ItemID="109968176" PTYPE="4" WIDTH="388.028976377953" HEIGHT="35.7422047244099" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" copath="M0 0 L388.029 0 L388.029 35.7422 L0 35.7422 L0 0 Z" gXpos="155.434960629921" gYpos="1572.75779527559" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 1.はじめに"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.1" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="110036768" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="110036768" ANNAME="Footnote frame Default (3)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
-            <WeldEntry Target="109043744" WX="0" WY="0"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2170.5505511811" OwnPage="3" ItemID="109088816" PTYPE="4" WIDTH="388.028976377953" HEIGHT="21.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="109088816" ANNAME="Footnote frame Default (2)" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 21.5 L0 21.5 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
+            <WeldEntry Target="109093520" WX="0" WY="0"/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="109043744" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="1635" OwnPage="3" ItemID="109093520" PTYPE="4" WIDTH="388.028976377953" HEIGHT="535.5505511811" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" copath="M0 0 L388.029 0 L388.029 535.551 L0 535.551 L0 0 Z" gXpos="155.434960629921" gYpos="1635" gWidth="0" gHeight="0" PSTYLE="Default Paragraph Style" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="「ではみなさんは、そういうふうに川だと云われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指しながら、みんなに問をかけました。"/>
             <para/>
             <ITEXT CH="「ジョバンニさん。あなたはわかっているのでしょう。」"/>
@@ -193,11 +198,21 @@
             <ITEXT CH="。"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="109048416" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Contents"/>
-            <trail/>
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1230.39496062992" OwnPage="2" ItemID="109953584" PTYPE="4" WIDTH="193.028241469817" HEIGHT="22.9918110236224" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" copath="M0 0 L193.028 0 L193.028 22.9918 L0 22.9918 L0 0 Z" gXpos="849.333333333333" gYpos="1230.39496062992" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="CH.1"/>
+            <tab/>
+            <ITEXT CH="1"/>
+            <para PARENT="None"/>
+            <ITEXT CH="CH.2"/>
+            <tab/>
+            <ITEXT CH="3"/>
+            <para PARENT="None"/>
+            <ITEXT CH="CH.3"/>
+            <tab/>
+            <ITEXT CH="15"/>
+            <para PARENT="None"/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="110010384" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="849.333333333333" YPOS="1271.33333333333" OwnPage="2" ItemID="110325760" PTYPE="4" WIDTH="193.028241469817" HEIGHT="150.556115485565" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" copath="M0 0 L193.028 0 L193.028 150.556 L0 150.556 L0 0 Z" gXpos="849.333333333333" gYpos="1271.33333333333" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="CH.1"/>
             <tab/>
             <ITEXT CH="1"/>
@@ -214,46 +229,44 @@
                 <ItemAttribute Name="toc" Type="" Value="" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="110013232" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2321.4188976378" OwnPage="5" ItemID="110394160" PTYPE="4" WIDTH="388.028976377953" HEIGHT="42.5811023622036" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" copath="M0 0 L388.029 0 L388.029 42.5811 L0 42.5811 L0 0 Z" gXpos="155.434960629921" gYpos="2321.4188976378" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 2. How to contribute to OpenStack"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.2" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="110394624" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="108326912" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="2396.37826771654" OwnPage="5" ItemID="110529920" PTYPE="4" WIDTH="388.028976377953" HEIGHT="522.833385826772" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" copath="M0 0 L388.029 0 L388.029 522.833 L0 522.833 L0 0 Z" gXpos="155.434960629921" gYpos="2396.37826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="120411952" BACKITEM="-1">
             <ITEXT CH="OpenStackの開発に参加するためには、最初に少し準備が必要になります。Githubはあくまでミラーであり、プルリクエストを送ってもマージされません。また、メーリングリストでのコードレビューも行われていません。これらの代わりに、Gerritというシステムを使ってパッチのレビューとマージを行っています。まず、OpenStack開発の概要を述べていきます。"/>
             <para/>
             <ITEXT CH="開発者"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="本家の集計によれば、世界177ヶ国からのべ32326人の開発者がいるそうです。"/>
             <para/>
             <ITEXT CH="意志決定"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="Linuxカーネルの開発コミュニティーには「Linus Torvalds」という職業がありますが、OpenStackにはそのような役割の人はいません。"/>
             <para/>
             <ITEXT CH="コミュニケーション戦略"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="ツールとしては主にメーリングリストとIRCが使われています。"/>
             <para/>
             <ITEXT CH="バグトラッキング"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="Launchpadというサービスを使っています。ちょっと重いのが難点……。"/>
             <para/>
             <ITEXT CH="コードレビュー"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="Gerritというコードレビューシステムを使っています。OpenStackはGithubにミラーレポジトリがありますが、Githubのプルリクエストは受け付けていませんので注意して下さい。また、メーリングリストでのパッチレビューも行われていません。GerritにPushされたパッチはここでパッチごとにコードレビューと自動テストを受けることになります。テストはPushと同時にキューに入り、結果はレビュー画面に表示されます。パッチがマージされるためには、自動テストがすべてPassし、レビューとコメントに適切に対応し、「コアレビューアー」と言われる人、2人にに”＋２”というタグを付けてもらう必要があります。2つの＋２をもらい、コアレビュアーがWorkflowを1つ進めると、結合テストのキューに入り、結合テストにPassすると自動でMasterブランチにマージされる仕組みです。"/>
             <para/>
-            <para/>
             <ITEXT CH="仕様決定"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="新規機能の追加に関しては、LaunchpadのBlueprintという機能を使っています。Bluepintで簡単な説明とステータストラッキングを行い、技術的仕様はSPECという仕組みで議論されます。と言っても、コンポーネントごとに決められたフォーマットとテンプレートを使って仕様を書き、それをコードレビューと同じ仕組みで議論しているだけです。ほとんどの場合、SpecはRST（restructuredtext）型式で書かれ、Gerrit上でコメントをやりとりすることで進められていきます。"/>
             <para/>
-            <para/>
-            <ITEXT CH="OpenStack開発"/>
-            <para/>
+            <ITEXT CH="OpenStack開発のための準備"/>
+            <para PARENT="節"/>
             <ITEXT CH="メールアドレスを1つ選ぶ（作成する）"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="これからOpenStackの開発に参加していくにあたり、まずメインとなるメールアドレスを決めます。最近は個人で多くのメールアドレスを持っていることが多いと思います。学校で配付されるもの、会社で使うもの、個人で使っているGmail、（まだあるのかわからないが、かつて「メッセ」と言われたものに使っていた）Hotmailなど。"/>
             <para/>
             <ITEXT CH="OpenStackに限らず、オープンソース開発ではメールアドレスは個人を特定するために重要で、公開が原則となっています。企業としてオープンソースコミュニティーに貢献していく場合は会社のドメインを持つメールアドレスを使うことが多いでしょう。OpenStackでも企業ドメインでの貢献も非常に多いです。会社での貢献を気にする場合は、Stackaliticsというサービスで、個人のメールアドレスと所属組織を紐付けることができるので、個人のGmailアドレスなどを使っても、あとからトラッキングすることができます。"/>
@@ -261,7 +274,7 @@
             <ITEXT CH="私用のメールアドレスしか持っていない、あるいは会社のメールは転職時に使えなくなってしまうことを心配する場合は、これを機にオープンソース活動用のメールアドレスを1つ取得してみるのはどうでしょうか。今後も何かしらのオープンソース活動をする際にもとても便利だと思うので、オススメです。"/>
             <para/>
             <ITEXT CH="OpenStack Foundationに参加する"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="OpenStack開発者はOpenStack Foundationへの参加が必須です。まずはOpenStack Foundationにアカウントを作成します。このアカウント作成が、Foundationへ参加することになります。"/>
             <para/>
             <ITEXT CH="https://www.openstack.org/join/"/>
@@ -269,82 +282,74 @@
             <ITEXT CH="OpenStack FoundationメンバーにはCommunity MemberとFoundation Memverの2種類あります。両者の違いはコミュニティーの舵取り役（Board Member）の選ぶ際の選挙権があるか否か、なのですが、実は実際にコードを書き、パッチがマージされるためにはFoundation Memberであることが必要です。従って、ここではFoundation Memberを選んで、アカウントを作成します。氏名やメールアドレスなどを入力するのですが、ちょっと分かりにくいと思われる箇所があるので少し解説します。"/>
             <para/>
             <ITEXT CH="Affiliation"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="すぐ下に記載されている説明によると「過去12ヶ月間において、$60,000 USDの給与契約を結んでいる組織」を書きます。要するに、勤め人の場合は会社名になりますね。あてはまる組織がない場合は、「Unaffiliated」と書けばよいみたいです。いやしかし、基準が超高給過ぎやしませんかね……。"/>
             <para/>
             <ITEXT CH="Statement of Interest"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="日本語で言うところの「所信表明」です。決意表明とでも言いましょうか。何かカッコいいことを書いておきましょう。「Make the OpenStack world better」とか……。英語でカッコいいこと言うの難しいですね。製造業のテレビCMのキャッチコピーみたいなのとかを参考にするといいかも？しれまんせん？（適当）"/>
             <para/>
             <ITEXT CH="Launchpadにサインアップする"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="OpenStackはチケットトラッカーにLaunchpadというサービスを使っています。このアカウントも作成しておきましょう。"/>
             <para/>
             <ITEXT CH="https://launchpad.net/"/>
             <para/>
             <ITEXT CH="Gerritにサインアップする"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="OpenStackはコードレビューにGerritというシステムを使っています。右上のLoginをクリックしてログインします。このアカウントはLaunchpad OpenIDでのシングルサインオンになっています。"/>
             <para/>
-            <para/>
             <ITEXT CH="Gerritの初期設定"/>
-            <para/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="Gerritに少し初期設定が必要です。"/>
             <para/>
-            <para/>
             <ITEXT CH="ユーザー名"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="初回ログイン時にユーザー名を設定します。あとで変更はできないので気を付けましょう。"/>
             <para/>
             <ITEXT CH="https://review.openstack.org/#/settings/"/>
             <para/>
             <ITEXT CH="Contact Information"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="https://review.openstack.org/#/settings/contact"/>
             <para/>
             <ITEXT CH="これらを設定しないと、パッチをGerritにPushすることができません。名前とEmailアドレス、そして住所を設定します。Mailing AddressというのはEmailアドレスではなく、住所です。情報は暗号化されて保存されるので安心してください。とは言うものの、詳細な住所を書く必要は特にない、というのが本当のところです。市町村程度までで良いのではないかと思っています。法的には問題ありでしょうが……。電話番号もしかりです。"/>
             <para/>
             <ITEXT CH="ICLAにサインする"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="https://review.openstack.org/#/settings/new-agreement"/>
             <para/>
             <ITEXT CH="最後にIndividual Contributor Licenceへの同意が必要です。ICLAを選んで設定しましょう。"/>
             <para/>
-            <para/>
             <ITEXT CH="git-reviewのインストール"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="git-reviewというのは、GerritにコードをPushする際に使うgitコマンドのプラグインです。主にPythonで作られています。インストール方法は、ディストリビューションのリポジトリを使う際はyumやapt-getなどで、あるいはpipでのインストールもできます。"/>
             <para/>
             <para/>
             <ITEXT CH="以上がパッチを書く前準備になります。結構いろいろありますね……。"/>
             <para/>
-            <para/>
             <ITEXT CH="パッチの作成"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="バグの登録"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="パッチを書こうと言っても「何を直せばいいのかわからない」・「バグがない」といった声をよく聞きます。が、これは全くその通りです。少し前はバグが多かったので、ちょっと試してみるだけでもバグに当たりましたが、最近ではバグも減り、なかなかそういうこともなくなってきました。そこで、まずはパッチを書いてみるにあたり、何のパッチを書くかについて、すこしまとめてみると、以下のような観点からバグを探すのがよいと思います。"/>
             <para/>
-            <para/>
             <ITEXT CH="使ってみて、不具合にぶち当たり、それを直す"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="これは結構ちゃんと使い始めないとなかなか無いかもしれません。手元のマシンで試しに動かしているだけという場合、開発者も同じような環境で開発していることも多いので、ちょっとしたバグには当たりにくいかもしれません。"/>
             <para/>
-            <para/>
             <ITEXT CH="Launchpadにバグ登録されている中からみつける"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="すべての既知のバグはLaunchpadに登録されていますので、このなかから簡単そうなものを見つくろって直してみる方法です。とはいえNovaのような大きなプロジェクトでは（残念というか選び放題というか）膨大な量のバグが登録されています。なので、このリストをながめていてもなかなか見つかりません。こつとしては、"/>
             <para/>
             <ITEXT CH="AssigneeがNoneになっているもの"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="law-hanging-fluitタグが付いているもの"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="といったものだけを検索してみるといいと思います。"/>
             <para/>
-            <para/>
             <ITEXT CH="コメントやドキュメントの修正を行う"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="まぁ確かにソースコード内のコメントのタイポ修正だけというのは物足りないとは思いますが、どうもドキュメントの修正も同じように残念がる人が多くていけません。ドキュメントの不足や、自分が試してみた時に困った点や、そもそもドキュメントが現状と一致していない点を発見したら、どんどん直していきましょう。全くもって恥ずべきことではありません。OpenStackはプロジェクトが大きいぶん、ドキュメントの不足が目立ちます。「こんなドキュメントじゃわかんねーよ！ハマったよ！」ということがありましたら、どんどん改善していって欲しいと思います。"/>
             <para/>
             <para/>
@@ -352,94 +357,88 @@
             <para/>
             <ITEXT CH="良い（？）を見つけることができたら、自分にAssignしてしまいましょう。Unassinedと書かれたカラムの隣に鉛筆マークがあります。ここからAssigneeを変えることができます。あとで諦めてAssignを外すこともできますので、背水の陣の気持ちになる必要はありません。折角OpenStackに貢献できるチャンスを、みすみす逃さないための予防措置のようなものだと思って下さい。"/>
             <para/>
-            <para/>
             <ITEXT CH="バグの新規登録"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="運良く（？）バグに遭遇した場合は、Lanchpadにバグ登録をしてみましょう。登録はBugページの右上にバグ登録リンク（Report a bug）があるのですぐできます。が、既に誰かがバグ登録をしているかもしれません"/>
             <MARK label="NoteMark_Default_4" type="4"/>
             <ITEXT CH="。Summaryを入力してNextを押すと、既に似たバグが登録されていないか、Summaryから推測して提示してくれます。もし、同じバグが既に登録されていた場合は、バグレポートが重複してしまいますので新規登録は避けましょう。そのかわり、そのバグにまだAssigneeがいない場合は自分で修正できるチャンスですので、自身をAssignしちゃいましょう。"/>
             <para/>
-            <para/>
             <ITEXT CH="バグレポートの書き方"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="「バグ登録をするときにどう書けばいいのか分からない」と思う人が多いと思います。これ系の話はWebのいたるところに転がっている話ではあるのですが、少なくとも以下の情報は書くようにしましょう。"/>
             <para/>
             <ITEXT CH="１．怒りを静める"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="何よりも、まずこれが重要です。思ったより動かすのが大変でいらいらするのは分かりますが、それをバグレポートにぶつけるのはやめましょう。バグリストを見ていると、怒りにまかせた激しい文章をバグレポートにぶつけている例が散見されますが、これを反面教師としましょう。まずは怒りを静めること、これが大切です。"/>
             <para/>
             <ITEXT CH="２．「どういう結果を期待しているのか」を自問する"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="これが意外と忘れられがちです。バグというのは、動かないことではなく、期待した通りの動作をしないことです。「動かない！（It doesn't work!）」とか「さっきまで動いていたのに、何もしてないのに落ちた！(goes down!)」とだけ書くのではなく、自身がそのプロダクトに何を期待し、どのような結果を予想していたか、をまずメモに起こすところまで考えてみて下さい。このメモは次の実際のバグレポートを書く際に使います。"/>
             <para/>
             <ITEXT CH="３．バグレポートを書く"/>
-            <para/>
+            <para PARENT="太字"/>
             <ITEXT CH="ようやくバグレポートを書く段階ですね。バグレポートにあるとよい情報は、少なくとも以下です。"/>
             <para/>
-            <ITEXT CH="＊　バージョン"/>
-            <para/>
-            <ITEXT CH="＊　やったこと"/>
-            <para/>
-            <ITEXT CH="＊　それに帯する期待する動作"/>
-            <para/>
-            <ITEXT CH="＊　実際の挙動"/>
-            <para/>
-            <ITEXT CH="＊　なぜその挙動では困るのか"/>
-            <para/>
-            <ITEXT CH="＊　なぜそのバグが重要なのか"/>
-            <para/>
+            <ITEXT CH="バージョン"/>
+            <para PARENT="箇条書き"/>
+            <ITEXT CH="やったこと"/>
+            <para PARENT="箇条書き"/>
+            <ITEXT CH="それに帯する期待する動作"/>
+            <para PARENT="箇条書き"/>
+            <ITEXT CH="実際の挙動"/>
+            <para PARENT="箇条書き"/>
+            <ITEXT CH="なぜその挙動では困るのか"/>
+            <para PARENT="箇条書き"/>
+            <ITEXT CH="なぜそのバグが重要なのか"/>
+            <para PARENT="箇条書き"/>
             <ITEXT CH="こんなものだけでOKです。この順番で箇条書きにしてもいいです。特に、「なぜその挙動では困るのか」と「どのぐらい重要なのか」を書くのはとても大切です。開発者は常に十分ではないため、９９％のバグは緊急性が無いと判断されます。従って、そのなかでも「割と重要なんだよ」アピールをしておくと、優先度を付けやすくなります。バグの優先順位を付けるひとは、できるだけ重要度を下げようとしますので。"/>
             <para/>
-            <para/>
             <ITEXT CH="git-reviewの初期設定"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="とにかく、いざ修正を始める段階にきたとしましょう。リポジトリフォルダ内で、最初にgit-reviewの初期設定をしておきましょう。"/>
             <para/>
             <ITEXT CH="git review -s"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="ここでGerritサーバーにSCP(SSH)することで、git-reviewの初期設定が行われます。具体的にはgerritというoriginの追加と、hookスクリプトを1つダウンロードし、.gitに配置します。この際にかなりのハイポート(29418)を使うのですが、Proxy配下から接続する場合には接続エラーが発生するかもしれません。その場合はセットアップ前に以下の設定をしておくとSSHではなくHTTPSでの接続で初期設定が行われます。"/>
             <para/>
             <ITEXT CH="git config gitreview.scheme https"/>
-            <para/>
+            <breakline/>
             <ITEXT CH="git config gitreview.port 443"/>
-            <para/>
+            <breakline/>
             <ITEXT CH="git config gitreview.username foobar"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="１．２５以上のgir-reviewである必要があります。pipではこのバージョンがインストールされますが、ディストリビューションによってはもっと古いバージョンの場合があります。その場合は"/>
             <para/>
             <ITEXT CH="git remote add gerrit https://&lt;username&gt;@review.openstack.org/"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="をしてから初期設定しましょう。"/>
             <para/>
             <ITEXT CH="HTTPSでのセットアップをした場合、GerritへコードをPushするにはHTTPS用のパスワードを生成する必要がありますので、ここで生成しておきましょう。https://review.openstack.org/#/settings/http-password"/>
             <para/>
             <ITEXT CH="なお、任意の文字列を設定することはできません。パスワードを設定しなおすことはできます。"/>
             <para/>
-            <para/>
             <ITEXT CH="ブランチの作成"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="まずバグ修正用のブランチを作成し、そのブランチをチェックアウトしましょう。"/>
             <para/>
             <ITEXT CH="git checktout mater"/>
-            <para/>
+            <breakline/>
             <ITEXT CH="git branch bug/123456"/>
-            <para/>
+            <breakline/>
             <ITEXT CH="git checkout bug/123456"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="bug/の後ろの数字はLaunchpadのバグ番号を書いておくとよいでしょう。と言っても、これはあくまで慣習であり、必ずこうでなければならない、という決まりはありません。が、慣習を破るとGerrit上でブランチ名が重複したりしますので、従っておくのが無難かと思います。"/>
             <para/>
-            <para/>
             <ITEXT CH="テスト"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="./run_tests.sh"/>
-            <para/>
+            <breakline/>
             <ITEXT CH="tox. -e test"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="少なくとも一回はテストをしておきましょう。"/>
             <para/>
-            <para/>
             <ITEXT CH="コミットメッセージ"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="表面的には、最初の１行目はSummaryを書きます。ここは５９文字までにする、という慣習があります。その後空行を一行あけ、コミットメッセージを書きます。個々は７９文字あたりで改行しましょう。"/>
             <para/>
             <ITEXT CH="コミットメッセージに何を書くべきかというのも諸説あるところですが、少なくとも入れるべき項目は「なぜその変更をしたか」です。これだけはGitでトラッキングできないからです。バグ修正の場合は「～というバグを修正するため」と書いてもよいですし、「～というバグを修正しないと～という影響が大きいため」という感じで書くとなお良いでしょう。ちなみに、バグの詳細な説明を書く必要はありません。"/>
@@ -450,18 +449,16 @@
             <para/>
             <ITEXT CH="さてここでCommitし、ログを見ると最下行にchange-idというコメントが自動的に追記されているのに気付くと思います。これはGerritがパッチを識別するのに使うIDです。これが変わってしまうと、別のパッチと扱われてしまうので注意が必要です。"/>
             <para/>
-            <para/>
             <ITEXT CH="GerritにパッチをPush"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="コミットメッセージにChangeIDが追記されていることを確認したら、コードレビュー環境にパッチをPushしてみましょう。"/>
             <para/>
             <ITEXT CH="git review"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="正常にPushされれば、https://review.openstack.org/#c/というURLで自分のパッチがレビューされるリンクが表示されます。あとはレビューされるのを待つだけになります。"/>
             <para/>
-            <para/>
             <ITEXT CH="レビュー"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="パッチはコアレビュアーの人が順番に優先順位の高いものからレビューをしていきます。なので、パッチをアップロードしてすぐに反応があることはあまりありません。パッチの数が膨大ですし、もちろん時差もあります。大抵の場合、一発でパッチがマージされることはありません。直して欲しい点や疑問点などをコメントされますので、修正して彩度アップロードすることになります。"/>
             <para/>
             <ITEXT CH="ここで問題となるのは「－１」です。先ほどコードがマージされるまでにはコアレビュアーの人２名から”＋２”をもらう必要があると言いましたが、「このパッチには問題があるから、マージしないほうがいいかも」と思った場合、”－１”というフラグを付けられることがあります。この”－１”がフラグがあるとコードがマージされにくくなります。コアレビュアーから見ると、「まだ何か問題があるのかも？」と思われがちだからです。"/>
@@ -472,27 +469,24 @@
             <para/>
             <ITEXT CH="まぁこれは筆者の予想ですが、OpenStack開発を仕事としてやっている人達はおおくいて（今のLinuxカーネル開発も同様ですね）、そのような人達はフラグを付けた数を会社にトラッキングされていることがあります。つまり、建設的にコメントだけしてもメシの種にならんというわけですね。まぁ諸説ありますが。"/>
             <para/>
-            <para/>
             <ITEXT CH="レビュー後の修正"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="修正はやはりバグ修正ブランチでの作業になります。修正したらコミットするのですが、ここで注意して欲しいのは「新しいコミットオブジェクトを作成しない」ということです。具体的には　"/>
             <para/>
             <ITEXT CH="git commit --amend"/>
-            <para/>
+            <para PARENT="等幅"/>
             <ITEXT CH="のように、amendオプションで前回のコミットを上書きします。これには理由があります。先ほど最初にコミットをしたさいに、ChangeIDが生成されていることを確認しました。このChangeIDはコミットする際に自動的に生成され、コミットメッセージに追記されます。Gerrit上ではこのChangeIDがパッチを識別するIDとなっています。このIDが変わってしまうと、別のパッチとしてGerritに扱われてしまうため、パッチの修正履歴やコメント履歴が無くなってしまいます。amendオプションでIDを変えずに彩度git reviewでアップロードすることで、同じパッチの修正版としてアップロードすることができます。これで同じURLにアクセスすることができますので、コメント履歴や修正履歴を残すことができます。レビューする側としても、前回パッチとの差分が簡単に把握できますので、レビューしやすくなります。"/>
             <para/>
             <ITEXT CH="技術的な観点から言うと、Gerrit上ではパッチをコミットIDではなく独自のChangeIDで区別し、各CangeIDのバージョンをgitのrefオブジェクトに割り当てることで、「パッチのバージョン」という概念を持てるようにしています。別の見方をすると、コミットIDは違うけど、ChangeIDは同じというわけです。"/>
             <para/>
             <ITEXT CH="コードがマージされるまで、つまり問題点がなくなるまでこの修正と新バージョンのアップロードを繰り返すことになります。"/>
             <para/>
-            <para/>
             <ITEXT CH="マージ"/>
-            <para/>
+            <para PARENT="項"/>
             <ITEXT CH="コアレビュアーの人２名から＋２フラグを付けられたらマージ対象となります。結合テストのキューに自動的に入り、終了後にマージされます。ほっとする瞬間です。"/>
             <para/>
-            <para/>
             <ITEXT CH="バックポート"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="さて修正したバグですが、重要なバグと扱われた場合は、stableブランチへのバックポートを依頼されることがあります。Launchpadのコメントからstable/kiloの方も修正してよついでに、なんて言われたりします。図らずも、２つもコミットできちゃうというわけです。"/>
             <para/>
             <ITEXT CH="バックポートは、ローカルの作業としてはgitのcherrypickです。"/>
@@ -515,16 +509,14 @@
             <para/>
             <ITEXT CH="でkilo用のブランチへのパッチとしてGerritにアップロードします。その後のレビュープロセスはMasterブランチのそれと同じです。"/>
             <para/>
-            <para/>
             <ITEXT CH="コミットの分割"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="最初のうちはあまり大きなパッチを書くことはないですが、慣れてきてすこし大きなパッチ（新機能の開発とか）を書くような場合にはコミットを分割してレビューを安全に行う必要が出てきます。あまり大きなコミットを作るとレビューしにくくてしょうがありません。"/>
             <para/>
             <ITEXT CH="パッチの分割は簡単で、つまり新しくcommitするだけです。amendしない場合は新しいコミットオブジェクトが作成され、そのコミットには自動で新しいChangeIDが追記されます。ChangeIDが違えば別のパッチとしてレビューにアップロードされますが、依存関係にある１つ前のパッチへのリングが自動的にトラッキングされレビュー画面からも簡単にアクセスできるようになります。１つ前のコミットを修正したら、その上にあるコミットはrebaseする必要があります。"/>
             <para/>
-            <para/>
             <ITEXT CH="コードレビューをする"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="ところで、コードレビューをする人ってどんな人だと思いますか？答えはあなたです。たぶん勘違いしていると思いますが、別にコアレビュアーでなくてもコーどれびゅーをしていいのです、というかコアレビュアーではない開発者のレビューを大いに必要としています。「あれ？こっちの実装の方がよくない？」といったコメントは大いに歓迎されます。「何でこんな実装をしているんだろう？」といった疑問は大いにアリです。自分が分からないことは他人も分かってないことが多いです。"/>
             <para/>
             <ITEXT CH="コアレビュアーは昔コアレビュアーではなかった人達です。割と熱心に他人のコードをレビューしコメントを書いているような人達が、コアレビュアーに推薦され＋２フラグを付ける権限を受けます。何も特別な人達ではありません。OpenStackに限らずオープンソース開発においては誰もがコードレビューをすることができます。"/>
@@ -533,9 +525,8 @@
             <para/>
             <ITEXT CH="こまめにコードレビューをしていると、自分のパッチを気にかけてくれる人も増えますので自分のパッチがレビューされやすくなり、最終的にはマージされやすくなります。何か見たことある人のパッチが何となく優先度が上がります。なかなかウェットな世界でOpenStackは作られています。"/>
             <para/>
-            <para/>
             <ITEXT CH="Blueprint"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="OpenStackでは活発に新規機能の追加や実装が行われています。新規機能の開発では主にLanchpadのBlurpint機能が使われてきましたが、最近ではこれに加えてSpecのレビューということが行われています。"/>
             <para/>
             <ITEXT CH="新規機能をマージしてもらうには、まずBluepintの登録とコアレビュアーによる承認が必要です。まず、Bluepintを新規作成し、簡単な説明を書きます。その後、定期的に行われているIRCでのミーティングに参加し、そこで承認の依頼をし、多少の受け答えをし、妥当なものだと判断されるとそのblueprintは承認されます。ここで初めて開発パッチをGerritにアップロードし、レビューを受けることができます。"/>
@@ -544,9 +535,8 @@
             <para/>
             <ITEXT CH="Specの議論では、必要となる技術要素や仕様はもちろん、新規機能の必要性や妥当性なども議論されます。また、代替案なども書く必要もあります。最初からこの仕様を書き上げるのは難しいので、バグの修正に飽きたり、自分も欲しいと思っていた機能などのSpecがあれば、まずはそのレビューに参加してみましょう。OpenStackの勉強にもなります。"/>
             <para/>
-            <para/>
             <ITEXT CH="Gerritを便利に使う"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="まぁ正直言って、今時の他のレビューシステムと見比べると、Gerritの見た目はしょっぱい感じなのは否めません。いや、まぁ機能はかなり豊富なんですけどね。まぁ見た目はブラウザのプラグインなどで変えられます。また、Settingを変更することでも少し変えることができます。"/>
             <para/>
             <ITEXT CH="https://review.openstack.org/#/settings/preferences"/>
@@ -555,9 +545,8 @@
             <para/>
             <ITEXT CH="まぁいずれにしても若干しょっぱい感じはいなめません。"/>
             <para/>
-            <para/>
             <ITEXT CH="オープンソースソフトウェアをオープンソースコミュニティーで開発するということ、あるいは冷静と情熱のあいだにある忍耐について"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="おどかすわけではないですが、初めて書いたパッチがマージされるのは簡単ではありません。マージされない判断が降りればいい方で、大抵の場合は無視され（たように感じ）ます。パッチがマージされるまでどのぐらいかかるかというと、まちまちです。パッチを送ったその日にマージされることもあれば、三ヶ月かかることもあります。まず、マージ以前にレビューされなという事件が起こります。無視されたりします。まぁ故意ではないのですが、コアレビュアーと言われている人はそもそも本業が忙しいのです。本業が忙しくないひとはコアレビュアーになれるほど人望も技術力もないのでしょう。世の中は非対称です。"/>
             <para/>
             <ITEXT CH="オープンソースコミュニティには実にいろいろな背景の人がいますが、主には趣味人と会社員です。趣味人は趣味で開発をしますが、会社員は企業としてオープンソースコミュニティに貢献しています。いずれにせよ、全く無関心にパッチを書いたりしているわけではありません。それぞれ何かしら利益があってやっています。個人は趣味の充実かもしれませんし、企業は広報活動の一環だったりするかもしれません。"/>
@@ -570,45 +559,52 @@
             <para/>
             <ITEXT CH="実は、やはりコミュニティとの関わりかたは個人の性格に依存してしまうものです。"/>
             <para/>
-            <para/>
             <ITEXT CH="オープンソース活動をするということ（企業戦士編）"/>
-            <para/>
+            <para PARENT="節"/>
             <ITEXT CH="オープンソースのソフトウェアを本番環境で使うことなんてあり得ない、と言う場合があります。諸説ありますが、大抵の場合サポートがない、つまり人のせいにできないからというのが理由です。非常に重要な観点であることは否定しませんが、そんなものお前が謝るかクビになればいい話なので、あまり説得力はありません。そういう人、意外と営業担当、つまり本当にお金を生み出す人達ともうまくいかないことも多い気がします。営業担当からしてみれば、トラブル時の責任の所在なんぞ甚だどうでもよいことであって、トラブル時の金銭的損失に対する謝罪を言えよ営業を舐めるなって思うんじゃないかと僕は思うんです。「オープンソースを導入すればオープンイノベーションを使えたり、先進機能を使えたり、標準的な技術仕様を展開できたりするかもしれませんし、ビジネスチャンスとその実装を近づけることもできるかもしれませんが、サポートに責任を押しつけられないのでやりません僕のせいじゃないです仕方無いんでｓ」「ふざけるな勝手に責任者ズラするんじゃねぇこの金食い虫が儲けの種を潰すな」ってなると思うんですが……。そんなことないのかな……。"/>
             <para/>
             <ITEXT CH="まぁいずれにせよ、ハズレOSSがある以上は何か選ぶ基準みたいなものは必要かもしれません。１つは、開発の活発さです。最終コミットが５年前とか、はちょっともう開発されてなさそうですね。プロジェクトの年齢も気になります。１日１００コミットぐらいしていて活発だけど、最初のコミットから３日しか経ってない、というのはちょっと品質が心配です。誰が作っているのか、というのも重要でしょう。良くも悪くも、信頼できるOSSというのはバックに大企業がついていることが多いです。主にバックの企業の従業員がコードを書き、一般のユーザーがバグとりやテスト、仕様の議論をするというスタイルが一般的です。そのような観点からすると、OpenStackはもう何年も開発され、未だに活発で、バックに複数の企業がついているという三拍子そろったOSSになります。"/>
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="110020976" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="155.434960629922" YPOS="6813.38551181103" OwnPage="17" ItemID="108438480" PTYPE="4" WIDTH="388.028976377953" HEIGHT="40.9436220472444" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" copath="M0 0 L388.029 0 L388.029 40.9436 L0 40.9436 L0 0 Z" gXpos="155.434960629922" gYpos="6813.38551181103" gWidth="0" gHeight="0" PSTYLE="章" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Chapter 3. Swift: The object storage primer"/>
             <trail/>
             <PageItemAttributes>
                 <ItemAttribute Name="chapterTag" Type="" Value="CH.3" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="108326912" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="108164944" BACKITEM="110394624"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3667.87275590551" OwnPage="7" ItemID="108331584" PTYPE="4" WIDTH="388.028976377953" HEIGHT="8.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="108331584" ANNAME="Footnote frame Default" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
-            <WeldEntry Target="108164944" WX="0" WY="0"/>
-        </PAGEOBJECT>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="108164944" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="108120784" BACKITEM="108326912"/>
-        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="108304176" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="654.332598425198" YPOS="2321.4188976378" OwnPage="6" ItemID="120411952" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425198" gYpos="2321.4188976378" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="108355152" BACKITEM="110529920"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3070.08" OwnPage="7" ItemID="108355152" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113262208" BACKITEM="120411952"/>
+        <PAGEOBJECT XPOS="107.669291338583" YPOS="1347.83590551181" OwnPage="1" ItemID="108359824" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/みつあみ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="-25.6692913385827" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="108308736" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="205.763937007874" YPOS="1347.83590551181" OwnPage="1" ItemID="108364384" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/ゆるふわ.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="72.4253543307087" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="108313296" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/本.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="303.858582677165" YPOS="1347.83590551181" OwnPage="1" ItemID="113252176" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/本.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="170.52" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="113319952" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="401.953228346457" YPOS="1347.83590551181" OwnPage="1" ItemID="113256736" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="img/黄色.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="268.614645669291" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="108109840" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/眼鏡.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="500.047874015748" YPOS="1347.83590551181" OwnPage="1" ItemID="113259472" PTYPE="2" WIDTH="92.16" HEIGHT="122.88" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.12" LOCALSCY="0.12" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Google ドライブ/まきがきくん/コミケ/眼鏡.png" IRENDER="0" EMBEDDED="0" path="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" copath="M0 0 L92.16 0 L92.16 122.88 L0 122.88 L0 0 Z" ImageRes="0" gXpos="366.709291338583" gYpos="-15.6640944881884" gWidth="465.559685039371" gHeight="102.4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="654.332598425197" YPOS="3070.08" OwnPage="8" ItemID="108120784" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113339040" BACKITEM="108164944"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="3818.74110236221" OwnPage="9" ItemID="113339040" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113322688" BACKITEM="108120784"/>
-        <PAGEOBJECT XPOS="654.332598425197" YPOS="3818.74110236221" OwnPage="10" ItemID="113322688" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="113374592" BACKITEM="113339040"/>
-        <PAGEOBJECT XPOS="155.434960629921" YPOS="4567.40220472441" OwnPage="11" ItemID="113374592" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="4567.40220472441" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="181696128" BACKITEM="113322688"/>
-        <PAGEOBJECT XPOS="654.332598425197" YPOS="4567.40220472441" OwnPage="12" ItemID="181696128" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="4567.40220472441" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="113374592"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="3667.87275590551" OwnPage="5" ItemID="208725744" PTYPE="4" WIDTH="388.028976377953" HEIGHT="8.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" isWeldItem="1" WeldSource="208725744" ANNAME="Footnote frame Default" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" LOCKR="1" path="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" copath="M0 0 L388.029 0 L388.029 8.5 L0 8.5 L0 0 Z" gXpos="654.332598425197" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1" isNoteFrame="1">
+            <WeldEntry Target="113262208" WX="0" WY="0"/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="3070.08" OwnPage="8" ItemID="113262208" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3070.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="173744144" BACKITEM="108355152"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="3818.74110236221" OwnPage="9" ItemID="173744144" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="173746992" BACKITEM="113262208"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="3818.74110236221" OwnPage="10" ItemID="173746992" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="3818.74110236221" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="110309408" BACKITEM="173744144"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="4567.40220472441" OwnPage="11" ItemID="110309408" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="4567.40220472441" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="110312256" BACKITEM="173746992"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="4567.40220472441" OwnPage="12" ItemID="110312256" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="4567.40220472441" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="176994832" BACKITEM="110309408"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="5316.06330708662" OwnPage="13" ItemID="176994832" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="5316.06330708662" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="176997792" BACKITEM="110312256"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="5316.06330708662" OwnPage="14" ItemID="176997792" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="5316.06330708662" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="177000752" BACKITEM="176994832"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="6064.72440944882" OwnPage="15" ItemID="177000752" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="155.434960629921" gYpos="6064.72440944882" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="97778000" BACKITEM="176997792"/>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="6064.72440944882" OwnPage="16" ItemID="97778000" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="6064.72440944882" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="177000752"/>
+        <PAGEOBJECT XPOS="155.434960629921" YPOS="6874.17165354331" OwnPage="17" ItemID="97775040" PTYPE="4" WIDTH="388.028976377953" HEIGHT="537.006614173229" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 537.007 L0 537.007 L0 0 Z" copath="M0 0 L388.029 0 L388.029 537.007 L0 537.007 L0 0 Z" gXpos="155.434960629921" gYpos="6874.17165354331" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="97766160" BACKITEM="-1">
+            <trail/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="654.332598425197" YPOS="6813.38551181103" OwnPage="18" ItemID="97766160" PTYPE="4" WIDTH="388.028976377953" HEIGHT="597.792755905512" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" copath="M0 0 L388.029 0 L388.029 597.793 L0 597.793 L0 0 Z" gXpos="654.332598425197" gYpos="6813.38551181103" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="97775040"/>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
