@@ -733,15 +733,64 @@ account-server、container-serverの稼働するホストで各々必要なパ�
 `/etc/swift`に移動し、`account-server.conf-sample`、`container-server.conf-sample`、`container-reconciler.conf-sample`をGitHubから取得してくる。object-server関連のconfを取得する必要はない。むしろ、object-server関連のconfが存在すると、最後にプロセス起動を`swift-init`を用いて行う際に、object-serverのプロセスも稼働してしまう。
 
 ```shell-session
-# curl -o /etc/swift/account-server.conf \
-  https://git.openstack.org/cgit/openstack/swift/plain/etc/account-server.conf-sample?h=stable/kilo
-# curl -o /etc/swift/container-server.conf \
-  https://git.openstack.org/cgit/openstack/swift/plain/etc/container-server.conf-sample?h=stable/kilo
-# curl -o /etc/swift/container-reconciler.conf \
-  https://git.openstack.org/cgit/openstack/swift/plain/etc/container-reconciler.conf-sample?h=stable/kilo
+# curl -o /etc/swift/account-server.conf https://git.openstack.org/cgit/openstack/swift/plain/etc/account-server.conf-sample?h=stable/liberty
+# curl -o /etc/swift/container-server.conf https://git.openstack.org/cgit/openstack/swift/plain/etc/container-server.conf-sample?h=stable/liberty
 ```
 
-その後の手順は、公式ドキュメントの通りである。
+/etc/swift/account-server.confを以下の通り編集する。
+
+```
+[DEFAULT]
+...
+bind_ip = MANAGEMENT_INTERFACE_IP_ADDRESS
+bind_port = 6002
+user = swift
+swift_dir = /etc/swift
+devices = /srv/node
+mount_check = true
+...
+[pipeline:main]
+pipeline = healthcheck recon account-server
+...
+[filter:recon]
+use = egg:swift#recon
+...
+recon_cache_path = /var/cache/swift
+```
+
+/etc/swift/container-server.confを以下の通り編集する。
+
+```
+[DEFAULT]
+...
+bind_ip = MANAGEMENT_INTERFACE_IP_ADDRESS
+bind_port = 6001
+user = swift
+swift_dir = /etc/swift
+devices = /srv/node
+mount_check = true
+...
+[pipeline:main]
+pipeline = healthcheck recon container-server
+...
+[filter:recon]
+use = egg:swift#recon
+...
+recon_cache_path = /var/cache/swift
+```
+
+account-server、container-sererの実データがストアされるディレクトリのownerを変更する。
+
+```
+# chown -R swift:swift /srv/node
+```
+
+recon用ディレクトリを作成しownerを変更する。
+
+```
+# mkdir -p /var/cache/swift
+# chown -R root:swift /var/cache/swift
+```
 
 最後に、`memcached`は再起動しておこう。
 
@@ -759,13 +808,43 @@ object-serverの稼働するホストで各々必要なパッケージをイン�
 `/etc/swift`に移動し、`object-server.conf-sample`、`object-expirer.conf-sample`をGitHubから取得してくる。こちらでは、逆に、account-server、container-server関連のconfを取得する必要はない。
 
 ```shell-session
-# curl -o /etc/swift/object-server.conf \
-  https://git.openstack.org/cgit/openstack/swift/plain/etc/object-server.conf-sample?h=stable/kilo
-# curl -o /etc/swift/object-expirer.conf \
-  https://git.openstack.org/cgit/openstack/swift/plain/etc/object-expirer.conf-sample?h=stable/kilo
+# curl -o /etc/swift/object-server.conf https://git.openstack.org/cgit/openstack/swift/plain/etc/object-server.conf-sample?h=stable/liberty
 ```
 
-こちらも、その後の手順は、公式ドキュメントの通りである。
+/etc/swift/object-server.confを以下の通り編集する。
+
+```
+[DEFAULT]
+...
+bind_ip = MANAGEMENT_INTERFACE_IP_ADDRESS
+bind_port = 6000
+user = swift
+swift_dir = /etc/swift
+devices = /srv/node
+mount_check = true
+...
+[pipeline:main]
+pipeline = healthcheck recon object-server
+...
+[filter:recon]
+use = egg:swift#recon
+...
+recon_cache_path = /var/cache/swift
+recon_lock_path = /var/lock
+```
+
+object-serverの実データがストアされるディレクトリのownerを変更する。
+
+```
+# chown -R swift:swift /srv/node
+```
+
+recon用ディレクトリを作成しownerを変更する。
+
+```
+# mkdir -p /var/cache/swift
+# chown -R root:swift /var/cache/swift
+```
 
 ## ringの設定
 proxy-serverのホスト上でringファイルを生成する。このタイミングで、クラスターのパーティション数や冗長度が決定される。クラスターの規模によりパーティション数や冗長度は慎重に決める必要がある。パーティション数に関する知見はGREEさんのこの記事がとても役に立つ。
@@ -780,29 +859,35 @@ proxy-serverのホスト上でringファイルを生成する。このタイミ�
 # cd /etc/swift
 # rm -f *.builder *.ring.gz backups/*.builder backups/*.ring.gz
 # swift-ring-builder account.builder create 17 3 1
-# swift-ring-builder account.builder add r1z1-192.168.0.3:6002/disk1 100
-# swift-ring-builder account.builder add r1z2-192.168.0.4:6002/disk1 100
-# swift-ring-builder account.builder add r1z3-192.168.0.5:6002/disk1 100
-# swift-ring-builder account.builder add r1z4-192.168.0.6:6002/disk1 100
-# swift-ring-builder account.builder add r1z5-192.168.0.7:6002/disk1 100
+
+# swift-ring-builder account.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6002 --device disk1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6002 --device disk1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6002 --device disk1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6002 --device disk1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6002 --device disk1 --weight 100
+
 # swift-ring-builder account.builder
 # swift-ring-builder account.builder rebalance
 
 # swift-ring-builder container.builder create 17 3 1
-# swift-ring-builder container.builder add r1z1-192.168.0.3:6001/disk1 100
-# swift-ring-builder container.builder add r1z2-192.168.0.4:6001/disk1 100
-# swift-ring-builder container.builder add r1z3-192.168.0.5:6001/disk1 100
-# swift-ring-builder container.builder add r1z4-192.168.0.6:6001/disk1 100
-# swift-ring-builder container.builder add r1z5-192.168.0.7:6001/disk1 100
+
+# swift-ring-builder container.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6001 --device disk1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6001 --device disk1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6001 --device disk1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6001 --device disk1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6001 --device disk1 --weight 100
+
 # swift-ring-builder container.builder
 # swift-ring-builder container.builder rebalance
 
 # swift-ring-builder object.builder create 17 3 1
-# swift-ring-builder object.builder add r1z1-192.168.0.8:6000/disk1 100
-# swift-ring-builder object.builder add r1z2-192.168.0.9:6000/disk1 100
-# swift-ring-builder object.builder add r1z3-192.168.0.10:6000/disk1 100
-# swift-ring-builder object.builder add r1z4-192.168.0.11:6000/disk1 100
-# swift-ring-builder object.builder add r1z5-192.168.0.12:6000/disk1 100
+
+# swift-ring-builder object.builder add --region 1 --zone 1 --ip 192.168.0.8 --port 6000 --device disk1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 2 --ip 192.168.0.9 --port 6000 --device disk1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 3 --ip 192.168.0.10 --port 6000 --device disk1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 4 --ip 192.168.011 --port 6000 --device disk1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 5 --ip 192.168.012 --port 6000 --device disk1 --weight 100
+
 # swift-ring-builder object.builder
 # swift-ring-builder object.builder rebalance
 ```
@@ -810,11 +895,48 @@ proxy-serverのホスト上でringファイルを生成する。このタイミ�
 完了したら、`account.ring.gz`、`container.ring.gz`、`object.ring.gz`を各ノードに配置する。
 
 ## プロセスの起動
-ここは公式ドキュメントの通りで問題ない。
 
-[Configure hashes and default storage policy](http://docs.openstack.org/kilo/install-guide/install/apt/content/swift-finalize-installation.html)
+GitHubからswift.confを取得して全ノードに配る。
+
+```
+# curl -o /etc/swift/swift.conf \
+  https://git.openstack.org/cgit/openstack/swift/plain/etc/swift.conf-sample?h=stable/liberty
+```
+
+/etc/swift/swift.confを編集する。suffix/prefixの文字列は任意のもので良いが決して外部に漏らしてはならない。
+
+```
+[swift-hash]
+...
+swift_hash_path_suffix = HASH_PATH_PREFIX
+swift_hash_path_prefix = HASH_PATH_SUFFIX
+...
+[storage-policy:0]
+...
+name = Policy-0
+default = yes
+```  
+
+編集が終わったタイミングで、swift.confを全ノードにコピーする。
+
+その後、全ノードで/etc/swiftのownerを変更する。
+
+```
+# chown -R root:swift /etc/swift
+```
 
 proxy-serverのホストでは、`proxy-server`と`memcached`が起動していれば良い。それ以外のホストでは、`swift-init`がよしなにやってくれるはずである。
+
+```
+# service memcached restart
+# service swift-proxy restart
+```
+
+その他のサーバでは、以下のコマンドを実行する。
+
+```
+# swift-init all start
+```
 
 ## 構築できているかどうかの確認
 KiloリリースであるためKeystoneのAPIはv3を利用している。そのため、swiftコマンドを実行する際には、`-V 3`というオプションが必要になる。
@@ -845,11 +967,7 @@ $ swift --debug -V 3 stat
 
 内部で実行されているREST APIの詳細が分かる。あとは、各ホストのログを確認していけば良い。
 
-以上で、構築は完了である。各々の構成によって注意すべき点は変わってくると思うが、今回は、自分がハマった点を踏まえて手順を作成してみた。
-
-
-
-
+以上で、構築は完了である。
 
 # CLIによるクラスターの操作
 
