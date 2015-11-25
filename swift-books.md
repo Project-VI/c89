@@ -663,20 +663,20 @@ $ file /srv/node/images/file.img
 マウント先のディレクトリを作成する。
 
 ```shell-session
-$ sudo mkdir -p /srv/node/disk1
+$ sudo mkdir -p /srv/node/d1
 ```
 
 マウントする。
 
 ```shell-session
-$ sudo mount -t xfs -o loop,noatime,nodiratime,nobarrier,logbufs=8 /srv/node/images/file.img /srv/node/disk1
+$ sudo mount -t xfs -o loop,noatime,nodiratime,nobarrier,logbufs=8 /srv/node/images/file.img /srv/node/d1
 ```
 
 `df`コマンドで確認する。
 
 ```shell-session
 $ df -h | grep loop0
-/dev/loop0       50G   33M   50G   1% /srv/node/disk1
+/dev/loop0       50G   33M   50G   1% /srv/node/d1
 ```
 
 これで、ループバックデバイスのマウントが完了する。
@@ -843,7 +843,7 @@ recon用ディレクトリを作成しownerを変更する。
 
 ```
 # mkdir -p /var/cache/swift
-# chown -R root:swift /var/cache/swift
+# chown -R swift:swift /var/cache/swift
 ```
 
 ## ringの設定
@@ -860,33 +860,33 @@ proxy-serverのホスト上でringファイルを生成する。このタイミ�
 # rm -f *.builder *.ring.gz backups/*.builder backups/*.ring.gz
 # swift-ring-builder account.builder create 17 3 1
 
-# swift-ring-builder account.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6002 --device disk1 --weight 100
-# swift-ring-builder account.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6002 --device disk1 --weight 100
-# swift-ring-builder account.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6002 --device disk1 --weight 100
-# swift-ring-builder account.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6002 --device disk1 --weight 100
-# swift-ring-builder account.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6002 --device disk1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6002 --device d1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6002 --device d1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6002 --device d1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6002 --device d1 --weight 100
+# swift-ring-builder account.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6002 --device d1 --weight 100
 
 # swift-ring-builder account.builder
 # swift-ring-builder account.builder rebalance
 
 # swift-ring-builder container.builder create 17 3 1
 
-# swift-ring-builder container.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6001 --device disk1 --weight 100
-# swift-ring-builder container.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6001 --device disk1 --weight 100
-# swift-ring-builder container.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6001 --device disk1 --weight 100
-# swift-ring-builder container.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6001 --device disk1 --weight 100
-# swift-ring-builder container.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6001 --device disk1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 1 --ip 192.168.0.3 --port 6001 --device d1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 2 --ip 192.168.0.4 --port 6001 --device d1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 3 --ip 192.168.0.5 --port 6001 --device d1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 4 --ip 192.168.0.6 --port 6001 --device d1 --weight 100
+# swift-ring-builder container.builder add --region 1 --zone 5 --ip 192.168.0.7 --port 6001 --device d1 --weight 100
 
 # swift-ring-builder container.builder
 # swift-ring-builder container.builder rebalance
 
 # swift-ring-builder object.builder create 17 3 1
 
-# swift-ring-builder object.builder add --region 1 --zone 1 --ip 192.168.0.8 --port 6000 --device disk1 --weight 100
-# swift-ring-builder object.builder add --region 1 --zone 2 --ip 192.168.0.9 --port 6000 --device disk1 --weight 100
-# swift-ring-builder object.builder add --region 1 --zone 3 --ip 192.168.0.10 --port 6000 --device disk1 --weight 100
-# swift-ring-builder object.builder add --region 1 --zone 4 --ip 192.168.011 --port 6000 --device disk1 --weight 100
-# swift-ring-builder object.builder add --region 1 --zone 5 --ip 192.168.012 --port 6000 --device disk1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 1 --ip 192.168.0.8 --port 6000 --device d1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 2 --ip 192.168.0.9 --port 6000 --device d1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 3 --ip 192.168.0.10 --port 6000 --device d1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 4 --ip 192.168.011 --port 6000 --device d1 --weight 100
+# swift-ring-builder object.builder add --region 1 --zone 5 --ip 192.168.012 --port 6000 --device d1 --weight 100
 
 # swift-ring-builder object.builder
 # swift-ring-builder object.builder rebalance
@@ -971,3 +971,116 @@ $ swift --debug stat
 
 
 # 運用と管理
+## 現在のRing情報の確認
+
+```
+# swift-ring-builder /etc/swift/account.builder
+/etc/swift/account.builder, build version 5
+131072 partitions, 3.000000 replicas, 1 regions, 5 zones, 5 devices, 0.00 balance, 0.00 dispersion
+The minimum number of hours before a partition can be reassigned is 1
+The overload factor is 0.00% (0.000000)
+Devices:    id  region  zone      ip address  port  replication ip  replication port      name weight partitions balance meta
+             0       1     1     192.168.0.3  6002     192.168.0.3              6002        d1 100.00      78643   -0.00
+             1       1     2     192.168.0.4  6002     192.168.0.4              6002        d1 100.00      78643   -0.00
+             2       1     3     192.168.0.5  6002     192.168.0.5              6002        d1 100.00      78644    0.00
+             3       1     4     192.168.0.6  6002     192.168.0.6              6002        d1 100.00      78643   -0.00
+             4       1     5     192.168.0.7  6002     192.168.0.7              6002        d1 100.00      78643   -0.00
+```
+
+```
+# swift-ring-builder /etc/swift/container.builder
+/etc/swift/container.builder, build version 5
+131072 partitions, 3.000000 replicas, 1 regions, 5 zones, 5 devices, 0.00 balance, 0.00 dispersion
+The minimum number of hours before a partition can be reassigned is 1
+The overload factor is 0.00% (0.000000)
+Devices:    id  region  zone      ip address  port  replication ip  replication port      name weight partitions balance meta
+             0       1     1     192.168.0.3  6001     192.168.0.3              6001        d1 100.00      78643   -0.00
+             1       1     2     192.168.0.4  6001     192.168.0.4              6001        d1 100.00      78643   -0.00
+             2       1     3     192.168.0.5  6001     192.168.0.5              6001        d1 100.00      78644    0.00
+             3       1     4     192.168.0.6  6001     192.168.0.6              6001        d1 100.00      78643   -0.00
+             4       1     5     192.168.0.7  6001     192.168.0.7              6001        d1 100.00      78643   -0.00
+```
+
+```
+# swift-ring-builder /etc/swift/object.builder
+/etc/swift/object.builder, build version 5
+131072 partitions, 3.000000 replicas, 1 regions, 5 zones, 5 devices, 0.00 balance, 0.00 dispersion
+The minimum number of hours before a partition can be reassigned is 1
+The overload factor is 0.00% (0.000000)
+Devices:    id  region  zone      ip address  port  replication ip  replication port      name weight partitions balance meta
+             0       1     1     192.168.0.8  6000     192.168.0.8              6000        d1 100.00      78643   -0.00
+             1       1     2     192.168.0.9  6000     192.168.0.9              6000        d1 100.00      78643   -0.00
+             2       1     3    192.168.0.10  6000    192.168.0.10              6000        d1 100.00      78643   -0.00
+             3       1     4    192.168.0.11  6000    192.168.0.11              6000        d1 100.00      78643   -0.00
+             4       1     5    192.168.0.12  6000    192.168.0.12              6000        d1 100.00      78644    0.00
+```
+
+## デバイス削除とデバイス追加
+
+### リバランス方法
+クラスター構築時にRingファイルを生成したproxy-server上でrebalanceコマンドを実行する。すると、新しくRingファイルが作成されるのでそれを再度全ノードに配布する。これは、objectのリバランスの例である。
+
+### デバイス削除
+
+id4のデバイスを以下のコマンドで削除する。id4の場合、対象はd4である。
+
+```
+# swift-ring-builder /etc/swift/object.builder remove d4
+d4r1z5-192.168.0.12:6000R192.168.0.12:6000/d1_"" marked for removal and will be removed next rebalance.
+```
+
+リバランス
+
+```
+# swift-ring-builder /etc/swift/object.builder rebalance
+Reassigned 78644 (60.00%) partitions. Balance is now 0.00.  Dispersion is now 0.00
+```
+
+Ring確認
+
+```
+# swift-ring-builder /etc/swift/object.builder
+/etc/swift/object.builder, build version 5
+131072 partitions, 3.000000 replicas, 1 regions, 4 zones, 4 devices, 0.00 balance, 0.00 dispersion
+The minimum number of hours before a partition can be reassigned is 1
+The overload factor is 0.00% (0.000000)
+Devices:    id  region  zone      ip address  port  replication ip  replication port      name weight partitions balance meta
+             0       1     1     192.168.0.8  6000     192.168.0.8              6000        d1 100.00      78643   -0.00
+             1       1     2     192.168.0.9  6000     192.168.0.9              6000        d1 100.00      78643   -0.00
+             2       1     3    192.168.0.10  6000    192.168.0.10              6000        d1 100.00      78643   -0.00
+             3       1     4    192.168.0.11  6000    192.168.0.11              6000        d1 100.00      78643   -0.00
+```
+
+その後、生成されたobject.ring.gzをscpなりして、全ノードに配布する。配布された瞬間からリバランスが各ノードで開始される。これで削除されたデバイス分のデータが残りのノードで再分配される。
+
+### デバイス追加
+初期構築時と同じコマンドで良い。
+
+```
+# swift-ring-builder object.builder add --region 1 --zone 5 --ip 192.168.012 --port 6000 --device d1 --weight 100
+```
+
+リバランス
+
+```
+# swift-ring-builder object.builder rebalance
+Reassigned 78640 (60.00%) partitions. Balance is now 0.00.  Dispersion is now 0.00
+```
+
+Ring確認
+
+```
+# swift-ring-builder /etc/swift/object.builder
+/etc/swift/object.builder, build version 5
+131072 partitions, 3.000000 replicas, 1 regions, 5 zones, 5 devices, 0.00 balance, 0.00 dispersion
+The minimum number of hours before a partition can be reassigned is 1
+The overload factor is 0.00% (0.000000)
+Devices:    id  region  zone      ip address  port  replication ip  replication port      name weight partitions balance meta
+             0       1     1     192.168.0.8  6000     192.168.0.8              6000        d1 100.00      78643   -0.00
+             1       1     2     192.168.0.9  6000     192.168.0.9              6000        d1 100.00      78643   -0.00
+             2       1     3    192.168.0.10  6000    192.168.0.10              6000        d1 100.00      78643   -0.00
+             3       1     4    192.168.0.11  6000    192.168.0.11              6000        d1 100.00      78643   -0.00
+             4       1     5    192.168.0.12  6000    192.168.0.12              6000        d1 100.00      78644    0.00
+```
+
+運用で必ず必要になる基本的な操作は以上である。
