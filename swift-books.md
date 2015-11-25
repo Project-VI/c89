@@ -943,7 +943,7 @@ KiloリリースであるためKeystoneのAPIはv3を利用している。その
 
 ```shell-session
 $ source demo-openrc.sh
-$ swift -V 3 stat
+$ swift stat
                         Account: AUTH_25e9c03ea9824a6e8d24a60ac5e72c98
                      Containers: 0
                         Objects: 0
@@ -962,14 +962,12 @@ Containers in policy "policy-0": 0
 このようにプロンプトが返ってくれば問題ない。プロンプトが少し時間がたっても返ってこない場合、どこかで設定が間違っているはずである。その際には、まず`--debug`オプションを付けて再度実行してみてほしい。
 
 ```shell-session
-$ swift --debug -V 3 stat
+$ swift --debug stat
 ```
 
 内部で実行されているREST APIの詳細が分かる。あとは、各ホストのログを確認していけば良い。
 
 以上で、構築は完了である。
-
-# CLIによるクラスターの操作
 
 
 # 運用と管理
