@@ -1084,3 +1084,8 @@ Devices:    id  region  zone      ip address  port  replication ip  replication 
 ```
 
 運用で必ず必要になる基本的な操作は以上である。
+
+
+
+# あとがき
+徐々にこのOpenStackの同人誌がQiita記事のまとめのようなものになりつつある。まぁそれはそれでありか。
